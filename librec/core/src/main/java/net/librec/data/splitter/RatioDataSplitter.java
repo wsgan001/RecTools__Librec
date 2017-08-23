@@ -29,6 +29,7 @@ import net.librec.math.structure.SparseVector;
 import net.librec.math.structure.VectorEntry;
 import net.librec.util.RatingContext;
 
+import java.io.Console;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

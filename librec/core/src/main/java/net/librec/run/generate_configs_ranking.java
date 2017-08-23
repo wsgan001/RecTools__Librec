@@ -16,10 +16,10 @@ import java.util.*;
  */
 public class generate_configs_ranking {
 
-    public static final String output_dir = "E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\java\\net\\librec\\run\\models\\movielens-100k\\ranking\\";
+
 
     public static void main(String[] args) throws Exception {
-        Files.walk(Paths.get(output_dir))
+        Files.walk(Paths.get(Params.configOutputDir))
                 .filter(Files::isRegularFile)
                 .map(Path::toFile)
                 .forEach(File::delete);
@@ -90,7 +90,7 @@ public class generate_configs_ranking {
         multiMap.putAll("rec.similarity.class", Arrays.asList(new String[]{"bcos", "cos", "cpc", "msesim", "msd", "pcc", "krcc", "dice", "jaccard", "exjaccard"}));
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "cf\\userknn-testranking.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -98,7 +98,7 @@ public class generate_configs_ranking {
             for (Map.Entry<String,String> entry: grid.entrySet()){
                 ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "userknn_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "userknn_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -108,7 +108,7 @@ public class generate_configs_ranking {
         multiMap.putAll("rec.similarity.class", Arrays.asList(new String[]{"bcos", "cos", "cpc", "msesim", "msd", "pcc", "krcc", "dice", "jaccard", "exjaccard"}));
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "cf\\itemknn-testranking.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -116,7 +116,7 @@ public class generate_configs_ranking {
             for (Map.Entry<String,String> entry: grid.entrySet()){
                 ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "itemknn_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "itemknn_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -132,7 +132,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "cf\\ranking\\bpr-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -145,7 +145,7 @@ public class generate_configs_ranking {
                 else
                     ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "bpr_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "bpr_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -160,7 +160,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "cf\\ranking\\aobpr-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -173,7 +173,7 @@ public class generate_configs_ranking {
                 else
                     ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "aobpr_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "aobpr_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -188,7 +188,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "cf\\ranking\\climf-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -201,7 +201,7 @@ public class generate_configs_ranking {
                 else
                     ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "climf_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "climf_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -217,7 +217,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "cf\\ranking\\eals-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -230,7 +230,7 @@ public class generate_configs_ranking {
                 else
                     ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "eals_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "eals_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -246,7 +246,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "cf\\ranking\\fismauc-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -259,7 +259,7 @@ public class generate_configs_ranking {
                 else
                     ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "fismauc_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "fismauc_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -275,7 +275,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "cf\\ranking\\fismrmse-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -289,7 +289,7 @@ public class generate_configs_ranking {
                 else
                     ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "fismrmse_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "fismrmse_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -305,7 +305,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "cf\\ranking\\gbpr-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -318,7 +318,7 @@ public class generate_configs_ranking {
                 else
                     ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "gbpr_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "gbpr_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -334,7 +334,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "cf\\ranking\\listwisemf-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -347,7 +347,7 @@ public class generate_configs_ranking {
                 else
                     ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "listwisemf_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "listwisemf_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -361,7 +361,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "cf\\ranking\\rankals-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -374,7 +374,7 @@ public class generate_configs_ranking {
                 else
                     ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "rankals_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "rankals_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -390,7 +390,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "cf\\ranking\\ranksgd-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -403,7 +403,7 @@ public class generate_configs_ranking {
                 else
                     ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "ranksgd_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "ranksgd_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -416,7 +416,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "cf\\ranking\\slim-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -429,7 +429,7 @@ public class generate_configs_ranking {
                 else
                     ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "slim_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "slim_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -445,7 +445,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "cf\\ranking\\wbpr-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -459,7 +459,7 @@ public class generate_configs_ranking {
                 else
                     ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "wbpr_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "wbpr_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -475,7 +475,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "cf\\ranking\\wrmf-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -488,7 +488,7 @@ public class generate_configs_ranking {
                 else
                     ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "wrmf_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "wrmf_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -496,51 +496,51 @@ public class generate_configs_ranking {
 
     public static void constantguess() throws Exception {
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "baseline\\constantguess-test.properties"));
-        FileUtil.writeString(output_dir + "constantguess.properties", Properties_file_str(ps));
+        FileUtil.writeString(Params.configOutputDir + "constantguess.properties", Properties_file_str(ps));
     }
 
     public static void globalaverage() throws Exception {
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "baseline\\globalaverage-test.properties"));
-        FileUtil.writeString(output_dir + "globalaverage.properties", Properties_file_str(ps));
+        FileUtil.writeString(Params.configOutputDir + "globalaverage.properties", Properties_file_str(ps));
     }
 
     public static void itemaverage() throws Exception {
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "baseline\\itemaverage-test.properties"));
-        FileUtil.writeString(output_dir + "itemaverage.properties", Properties_file_str(ps));
+        FileUtil.writeString(Params.configOutputDir + "itemaverage.properties", Properties_file_str(ps));
     }
 
     public static void mostpopular() throws Exception {
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "baseline\\mostpopular-test.properties"));
-        FileUtil.writeString(output_dir + "mostpopular.properties", Properties_file_str(ps));
+        FileUtil.writeString(Params.configOutputDir + "mostpopular.properties", Properties_file_str(ps));
     }
 
     public static void randomguess() throws Exception {
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "baseline\\randomguess-test.properties"));
-        FileUtil.writeString(output_dir + "randomguess.properties", Properties_file_str(ps));
+        FileUtil.writeString(Params.configOutputDir + "randomguess.properties", Properties_file_str(ps));
     }
 
     public static void useraverage() throws Exception {
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "baseline\\useraverage-test.properties"));
-        FileUtil.writeString(output_dir + "useraverage.properties", Properties_file_str(ps));
+        FileUtil.writeString(Params.configOutputDir + "useraverage.properties", Properties_file_str(ps));
     }
 
     public static void associationrule() throws Exception {
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "ext\\associationrule-test.properties"));
-        FileUtil.writeString(output_dir + "associationrule.properties", Properties_file_str(ps));
+        FileUtil.writeString(Params.configOutputDir + "associationrule.properties", Properties_file_str(ps));
     }
 
     public static void personalitydiagnosis() throws Exception {
@@ -549,7 +549,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "ext\\personalitydiagnosis-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -557,7 +557,7 @@ public class generate_configs_ranking {
             for (Map.Entry<String,String> entry: grid.entrySet()){
                 ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "personalitydiagnosis_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "personalitydiagnosis_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -568,7 +568,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "ext\\prankd-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -576,7 +576,7 @@ public class generate_configs_ranking {
             for (Map.Entry<String,String> entry: grid.entrySet()){
                 ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "prankd_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "prankd_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -587,7 +587,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "ext\\slopeone-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -595,7 +595,7 @@ public class generate_configs_ranking {
             for (Map.Entry<String,String> entry: grid.entrySet()){
                 ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "slopeone_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "slopeone_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -609,7 +609,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "baseline\\usercluster-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -617,7 +617,7 @@ public class generate_configs_ranking {
             for (Map.Entry<String,String> entry: grid.entrySet()){
                 ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "usercluster_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "usercluster_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -629,7 +629,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "baseline\\itemcluster-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -637,7 +637,7 @@ public class generate_configs_ranking {
             for (Map.Entry<String,String> entry: grid.entrySet()){
                 ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "itemcluster_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "itemcluster_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -650,7 +650,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "cf\\bucm-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -658,7 +658,7 @@ public class generate_configs_ranking {
             for (Map.Entry<String,String> entry: grid.entrySet()){
                 ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "bucm_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "bucm_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -671,7 +671,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "cf\\bhfree-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -684,7 +684,7 @@ public class generate_configs_ranking {
                 else
                     ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "bhfree_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "bhfree_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -699,7 +699,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "cf\\ranking\\aspectmodelranking-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -712,7 +712,7 @@ public class generate_configs_ranking {
                 else
                     ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "aspectmodelranking_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "aspectmodelranking_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -727,7 +727,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "cf\\ranking\\itembigram-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -740,7 +740,7 @@ public class generate_configs_ranking {
                 else
                     ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "itembigram_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "itembigram_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -755,7 +755,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "cf\\ranking\\lda-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -768,7 +768,7 @@ public class generate_configs_ranking {
                 else
                     ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "lda_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "lda_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }
@@ -783,7 +783,7 @@ public class generate_configs_ranking {
 
         List<HashMap<String,String>> grids = GridSearch.grid_search(multiMap);
         Properties ps = new Properties();
-        ps.load(new FileInputStream("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\resources\\rec\\"
+        ps.load(new FileInputStream(Params.modelTemplateDir
                 + "cf\\ranking\\plsa-test.properties"));
         int i = 1;
         for (HashMap<String,String> grid: grids){
@@ -796,7 +796,7 @@ public class generate_configs_ranking {
                 else
                     ps_tmp.setProperty(entry.getKey(), entry.getValue());
             }
-            FileUtil.writeString(output_dir + "plsa_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
+            FileUtil.writeString(Params.configOutputDir + "plsa_" + Integer.toString(i) + ".properties", Properties_file_str(ps_tmp));
             i++;
         }
     }

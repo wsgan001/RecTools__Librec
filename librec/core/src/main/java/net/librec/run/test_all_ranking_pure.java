@@ -26,20 +26,15 @@ import java.util.stream.Collectors;
  */
 public class test_all_ranking_pure {
     protected final static Log LOG = LogFactory.getLog(test_all_ranking_pure.class);
-    public static final String models_dir = "E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\java\\net\\librec\\run\\models\\movielens-100k\\ranking\\";
 
     public static void main(String[] args) throws Exception {
         String pattern = "ranking_pure_";
-        String logfilename = "E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\conf\\"
-                + "log4j.properties";
         Properties ps = new Properties();
-        ps.load(new FileInputStream(logfilename));
+        ps.load(new FileInputStream(Params.logFilePath));
         ps.setProperty("librec.log.file", pattern + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd-HH-mm")) + ".log");
         PropertyConfigurator.configure(ps);
         testRecommender_By_ConfigFile();
-
     }
-
     public static String Properties_file_str(Properties props){
         Enumeration e = props.propertyNames();
         String str = "";
@@ -55,7 +50,7 @@ public class test_all_ranking_pure {
 
         List<File> filesInFolder = null;
         try {
-            filesInFolder = Files.walk(Paths.get(models_dir))
+            filesInFolder = Files.walk(Paths.get(Params.configOutputDir))
                     .filter(Files::isRegularFile)
                     .map(Path::toFile)
                     .collect(Collectors.toList());
@@ -69,7 +64,7 @@ public class test_all_ranking_pure {
                 Configuration conf = new Configuration();
 
                 Configuration.Resource data_resources = new Configuration.Resource(
-                        Paths.get("E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\librec\\core\\src\\main\\java\\net\\librec\\run\\models\\movielens-100k\\data_pure_ranking.properties"));
+                        Paths.get(Params.baseConfigPath));
 
                 conf.addResource(data_resources);
                 //String model_file_config = f.getAbsolutePath();

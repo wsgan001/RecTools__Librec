@@ -246,6 +246,7 @@ public class TextDataConvertor extends AbstractDataConvertor {
                 boolean isComplete = bufferLine.endsWith("\n");
                 int loopLength = isComplete ? bufferData.length : bufferData.length - 1;
                 for (int i = 0; i < loopLength; i++) {
+//                    System.out.println(i);
                     read_line_count++;
                     String line = bufferData[i];
                     String[] data = line.trim().split("[ \t,]+");
@@ -291,6 +292,10 @@ public class TextDataConvertor extends AbstractDataConvertor {
                         }
                         splitPredefinedTable.put(row,col,data[4]);
                     }
+//                    if (i == 10000)
+//                    {
+//                        System.out.print("zhfzh");
+//                    }
                 }
                 if (!isComplete) {
                     bufferLine = bufferData[bufferData.length - 1];

@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/librec/doc/apidocs.zip!/" />
     </CLASSES>
+    <JAVADOC />
     <SOURCES />
   </library>
 </component>
