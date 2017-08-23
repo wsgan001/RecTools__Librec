@@ -1,0 +1,42 @@
+17/03/26 22:51:27 INFO test_all_ranking_pure: ********************************************************************************
+17/03/26 22:51:27 INFO test_all_ranking_pure: Begin
+
+17/03/26 22:51:27 INFO test_all_ranking_pure: 
+rec.iterator.learnrate=0.01
+rec.eval.classes=auc
+rec.bias.regularization=0.001
+rec.fismauc.rho=0.5
+rec.fismauc.alpha=0.9
+rec.fismauc.gamma=0.1
+rec.iterator.maximum=100
+rec.iteration.learnrate=0.00001
+rec.item.regularization=0.1
+rec.recommender.ranking.topn=10
+rec.recommender.class=fismauc
+rec.recommender.isranking=true
+rec.random.seed=1
+rec.factor.number=10
+rec.learnRate.bolddriver=false
+rec.eval.enable=true
+rec.user.regularization=0.1
+
+17/03/26 22:51:27 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/26 22:51:27 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/26 22:51:27 INFO TextDataConvertor: All dataset files size 6153533
+17/03/26 22:51:27 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/26 22:51:29 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/26 22:51:30 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/26 22:51:30 INFO TextDataModel: Data size of training is 80003
+17/03/26 22:51:30 INFO TextDataModel: Data size of testing is 10001
+17/03/26 22:51:30 INFO FISMaucRecommender: Job Setup completed.
+17/03/26 22:52:26 INFO FISMaucRecommender: iter 1 Evaluator value:AUC top 10 is -1.0	0.7094595238511072	0.7138603275500477
+17/03/26 22:53:04 INFO FISMaucRecommender: iter 2 Evaluator value:AUC top 10 is -1.0	0.7094649644427358	0.7153754343544467
+17/03/26 22:53:42 INFO FISMaucRecommender: iter 3 Evaluator value:AUC top 10 is -1.0	0.7109761232533951	0.717629057423399
+17/03/26 22:54:23 INFO FISMaucRecommender: iter 4 Evaluator value:AUC top 10 is -1.0	0.7132146350647265	0.7183840960019053
+17/03/26 22:55:04 INFO FISMaucRecommender: iter 5 Evaluator value:AUC top 10 is -1.0	0.7132138767680175	0.7191380087240797
+17/03/26 22:55:46 INFO FISMaucRecommender: iter 6 Evaluator value:AUC top 10 is -1.0	0.7139647776534096	0.7191372236930543
+17/03/26 22:56:28 INFO FISMaucRecommender: iter 7 Evaluator value:AUC top 10 is -1.0	0.7154667257058683	0.7198903929526888
+17/03/26 22:57:11 INFO FISMaucRecommender: iter 8 Evaluator value:AUC top 10 is -1.0	0.7139694251304199	0.717633035952386
+17/03/26 22:57:53 INFO FISMaucRecommender: iter 9 Evaluator value:AUC top 10 is -1.0	0.7094789740711255	0.716879397271471
+17/03/26 22:58:36 INFO FISMaucRecommender: iter 10 Evaluator value:AUC top 10 is -1.0	0.7109777543949758	0.716119426953731
+17/03/26 22:59:21 INFO FISMaucRecommender: iter 11 Evaluator value:AUC top 10 is -1.0	0.7124863966281314	0.7146260022068412

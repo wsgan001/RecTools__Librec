@@ -1,0 +1,51 @@
+17/03/25 13:57:17 INFO test_all_ranking_pure: ********************************************************************************
+17/03/25 13:57:17 INFO test_all_ranking_pure: Begin
+
+17/03/25 13:57:17 INFO test_all_ranking_pure: 
+rec.iterator.learnrate=0.01
+rec.eval.classes=auc
+rec.learnrate.decay=1.0
+rec.iterator.maximum=100
+rec.iterator.learnrate.maximum=0.01
+rec.item.regularization=0.1
+rec.rankals.support.weight=true
+rec.recommender.ranking.topn=10
+rec.recommender.class=rankals
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.learnrate.bolddriver=false
+rec.factor.number=10
+rec.learnRate.bolddriver=false
+rec.eval.enable=true
+rec.user.regularization=0.1
+
+17/03/25 13:57:18 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/25 13:57:18 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/25 13:57:18 INFO TextDataConvertor: All dataset files size 6153533
+17/03/25 13:57:18 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/25 13:57:20 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/25 13:57:21 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/25 13:57:21 INFO TextDataModel: Data size of training is 80003
+17/03/25 13:57:21 INFO TextDataModel: Data size of testing is 10001
+17/03/25 13:57:21 INFO RankALSRecommender: Job Setup completed.
+17/03/25 13:57:45 INFO RankALSRecommender: iter 1 Evaluator value:AUC top 10 is -1.0	0.6864058654872754	0.6869086376259863
+17/03/25 13:58:05 INFO RankALSRecommender: iter 2 Evaluator value:AUC top 10 is -1.0	0.7725901763273103	0.7681856471954586
+17/03/25 13:58:25 INFO RankALSRecommender: iter 3 Evaluator value:AUC top 10 is -1.0	0.786091947779349	0.7967737236321063
+17/03/25 13:58:45 INFO RankALSRecommender: iter 4 Evaluator value:AUC top 10 is -1.0	0.8011356823221939	0.8058031807889399
+17/03/25 13:59:06 INFO RankALSRecommender: iter 5 Evaluator value:AUC top 10 is -1.0	0.8026272369729086	0.8088327637838967
+17/03/25 13:59:27 INFO RankALSRecommender: iter 6 Evaluator value:AUC top 10 is -1.0	0.8071331545852354	0.8065807448105116
+17/03/25 13:59:54 INFO RankALSRecommender: iter 7 Evaluator value:AUC top 10 is -1.0	0.8048828792245154	0.8126065281198492
+17/03/25 14:00:22 INFO RankALSRecommender: iter 8 Evaluator value:AUC top 10 is -1.0	0.8078790179186851	0.8110999511127938
+17/03/25 14:00:47 INFO RankALSRecommender: iter 9 Evaluator value:AUC top 10 is -1.0	0.8071228526739087	0.8125982743017879
+17/03/25 14:01:18 INFO RankALSRecommender: iter 10 Evaluator value:AUC top 10 is -1.0	0.8116189372643333	0.8156266748595296
+17/03/25 14:01:49 INFO RankALSRecommender: iter 11 Evaluator value:AUC top 10 is -1.0	0.813861892183217	0.8126069399365173
+17/03/25 14:02:16 INFO RankALSRecommender: iter 12 Evaluator value:AUC top 10 is -1.0	0.802618431948217	0.8103298142611169
+17/03/25 14:02:51 INFO RankALSRecommender: iter 13 Evaluator value:AUC top 10 is -1.0	0.5650910357970499	0.558383189316084
+17/03/25 14:03:23 INFO RankALSRecommender: iter 14 Evaluator value:AUC top 10 is -1.0	0.5671904374338242	0.5658698500975022
+17/03/25 14:03:54 INFO RankALSRecommender: iter 15 Evaluator value:AUC top 10 is -1.0	0.7794236967146766	0.7787698443825121
+17/03/25 14:04:22 INFO RankALSRecommender: iter 16 Evaluator value:AUC top 10 is -1.0	0.7238545522951785	0.7230589133427026
+17/03/25 14:04:49 INFO RankALSRecommender: iter 17 Evaluator value:AUC top 10 is -1.0	0.5516086063156725	0.5493321366438149
+17/03/25 14:05:19 INFO RankALSRecommender: iter 18 Evaluator value:AUC top 10 is -1.0	0.6810570894483055	0.6770659916883431
+17/03/25 14:05:50 INFO RankALSRecommender: iter 19 Evaluator value:AUC top 10 is -1.0	0.7741473194961523	0.7608067131068352
+17/03/25 14:06:19 INFO RankALSRecommender: iter 20 Evaluator value:AUC top 10 is -1.0	0.806354659624455	0.7900052413180938
+17/03/25 14:06:49 INFO RankALSRecommender: iter 21 Evaluator value:AUC top 10 is -1.0	0.6504897335725169	0.6554559204940028

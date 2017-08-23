@@ -1,0 +1,27 @@
+17/03/25 00:12:29 INFO test_all_ranking_pure: ********************************************************************************
+17/03/25 00:12:29 INFO test_all_ranking_pure: Begin
+
+17/03/25 00:12:29 INFO test_all_ranking_pure: 
+rec.eval.classes=auc
+rec.iterator.maximum=100
+rec.neighbors.knn.number=80
+rec.recommender.similarities=item
+rec.slim.regularization.l2=5
+rec.slim.regularization.l1=1
+rec.similarity.class=cos
+rec.recommender.ranking.topn=10
+rec.recommender.class=slim
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.similarity.shrinkage=10
+rec.eval.enable=true
+rec.recommender.earlystop=true
+
+17/03/25 00:12:29 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/25 00:12:29 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/25 00:12:29 INFO TextDataConvertor: All dataset files size 6153533
+17/03/25 00:12:29 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/25 00:12:32 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/25 00:12:32 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/25 00:12:32 INFO TextDataModel: Data size of training is 80003
+17/03/25 00:12:32 INFO TextDataModel: Data size of testing is 10001

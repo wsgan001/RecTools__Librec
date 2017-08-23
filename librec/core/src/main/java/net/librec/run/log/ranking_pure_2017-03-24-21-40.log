@@ -1,0 +1,250 @@
+17/03/24 21:40:27 INFO test_all_ranking_pure: ********************************************************************************
+17/03/24 21:40:27 INFO test_all_ranking_pure: Begin
+
+17/03/24 21:40:27 INFO test_all_ranking_pure: rec.iterator.learnrate=0.01
+rec.eval.classes=auc
+rec.iterator.maximum=200
+rec.item.regularization=0.05
+rec.recommender.ranking.topn=10
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.recommender.class=wrmf
+rec.wrmf.weight.coefficient=4
+rec.factor.number=10
+rec.eval.enable=true
+rec.user.regularization=0.05
+
+17/03/24 21:40:27 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/24 21:40:27 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\backup\movielens100k_librec.txt, E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/24 21:40:27 INFO TextDataConvertor: All dataset files size 9182055
+17/03/24 21:40:27 INFO TextDataConvertor: Now loading dataset file movielens100k_librec
+17/03/24 21:40:29 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/24 21:40:31 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/24 21:40:31 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/24 21:40:31 INFO TextDataModel: Data size of training is 79130
+17/03/24 21:40:31 INFO TextDataModel: Data size of testing is 9888
+17/03/24 21:40:31 INFO WRMFRecommender: Job Setup completed.
+17/03/24 21:40:32 INFO WRMFRecommender: class net.librec.recommender.cf.ranking.WRMFRecommender runs at iteration = 1 Fri Mar 24 21:40:32 CST 2017
+17/03/24 21:40:32 ERROR test_all_ranking_pure: 
+17/03/24 21:40:32 INFO test_all_ranking_pure: ********************************************************************************
+17/03/24 21:40:32 INFO test_all_ranking_pure: Begin
+
+17/03/24 21:40:32 INFO test_all_ranking_pure: rec.iterator.learnrate=0.001
+rec.eval.classes=auc
+rec.iterator.maximum=200
+rec.item.regularization=0.01
+rec.recommender.ranking.topn=10
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.recommender.class=wrmf
+rec.wrmf.weight.coefficient=5
+rec.factor.number=10
+rec.eval.enable=true
+rec.user.regularization=0.01
+
+17/03/24 21:40:32 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/24 21:40:32 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\backup\movielens100k_librec.txt, E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/24 21:40:32 INFO TextDataConvertor: All dataset files size 9182055
+17/03/24 21:40:32 INFO TextDataConvertor: Now loading dataset file movielens100k_librec
+17/03/24 21:40:34 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/24 21:40:35 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/24 21:40:35 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/24 21:40:35 INFO TextDataModel: Data size of training is 79130
+17/03/24 21:40:35 INFO TextDataModel: Data size of testing is 9888
+17/03/24 21:40:36 INFO WRMFRecommender: Job Setup completed.
+17/03/24 21:40:38 INFO WRMFRecommender: class net.librec.recommender.cf.ranking.WRMFRecommender runs at iteration = 1 Fri Mar 24 21:40:38 CST 2017
+17/03/24 21:40:38 ERROR test_all_ranking_pure: 
+17/03/24 21:40:38 INFO test_all_ranking_pure: ********************************************************************************
+17/03/24 21:40:38 INFO test_all_ranking_pure: Begin
+
+17/03/24 21:40:38 INFO test_all_ranking_pure: rec.iterator.learnrate=0.001
+rec.eval.classes=auc
+rec.iterator.maximum=200
+rec.item.regularization=0.1
+rec.recommender.ranking.topn=10
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.recommender.class=wrmf
+rec.wrmf.weight.coefficient=4
+rec.factor.number=10
+rec.eval.enable=true
+rec.user.regularization=0.1
+
+17/03/24 21:40:38 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/24 21:40:38 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\backup\movielens100k_librec.txt, E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/24 21:40:38 INFO TextDataConvertor: All dataset files size 9182055
+17/03/24 21:40:38 INFO TextDataConvertor: Now loading dataset file movielens100k_librec
+17/03/24 21:40:38 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/24 21:40:39 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/24 21:40:39 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/24 21:40:39 INFO TextDataModel: Data size of training is 79130
+17/03/24 21:40:39 INFO TextDataModel: Data size of testing is 9888
+17/03/24 21:40:39 INFO WRMFRecommender: Job Setup completed.
+17/03/24 21:40:41 INFO WRMFRecommender: class net.librec.recommender.cf.ranking.WRMFRecommender runs at iteration = 1 Fri Mar 24 21:40:41 CST 2017
+17/03/24 21:40:41 ERROR test_all_ranking_pure: 
+17/03/24 21:40:41 INFO test_all_ranking_pure: ********************************************************************************
+17/03/24 21:40:41 INFO test_all_ranking_pure: Begin
+
+17/03/24 21:40:41 INFO test_all_ranking_pure: rec.iterator.learnrate=0.001
+rec.eval.classes=auc
+rec.iterator.maximum=200
+rec.item.regularization=0.1
+rec.recommender.ranking.topn=10
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.recommender.class=wrmf
+rec.wrmf.weight.coefficient=5
+rec.factor.number=10
+rec.eval.enable=true
+rec.user.regularization=0.1
+
+17/03/24 21:40:41 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/24 21:40:41 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\backup\movielens100k_librec.txt, E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/24 21:40:41 INFO TextDataConvertor: All dataset files size 9182055
+17/03/24 21:40:41 INFO TextDataConvertor: Now loading dataset file movielens100k_librec
+17/03/24 21:40:42 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/24 21:40:43 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/24 21:40:43 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/24 21:40:43 INFO TextDataModel: Data size of training is 79130
+17/03/24 21:40:43 INFO TextDataModel: Data size of testing is 9888
+17/03/24 21:40:43 INFO WRMFRecommender: Job Setup completed.
+17/03/24 21:40:44 INFO WRMFRecommender: class net.librec.recommender.cf.ranking.WRMFRecommender runs at iteration = 1 Fri Mar 24 21:40:44 CST 2017
+17/03/24 21:40:44 ERROR test_all_ranking_pure: 
+17/03/24 21:40:44 INFO test_all_ranking_pure: ********************************************************************************
+17/03/24 21:40:44 INFO test_all_ranking_pure: Begin
+
+17/03/24 21:40:44 INFO test_all_ranking_pure: rec.iterator.learnrate=0.01
+rec.eval.classes=auc
+rec.iterator.maximum=200
+rec.item.regularization=0.05
+rec.recommender.ranking.topn=10
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.recommender.class=wrmf
+rec.wrmf.weight.coefficient=5
+rec.factor.number=10
+rec.eval.enable=true
+rec.user.regularization=0.05
+
+17/03/24 21:40:44 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/24 21:40:44 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\backup\movielens100k_librec.txt, E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/24 21:40:44 INFO TextDataConvertor: All dataset files size 9182055
+17/03/24 21:40:44 INFO TextDataConvertor: Now loading dataset file movielens100k_librec
+17/03/24 21:40:45 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/24 21:40:46 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/24 21:40:46 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/24 21:40:46 INFO TextDataModel: Data size of training is 79130
+17/03/24 21:40:46 INFO TextDataModel: Data size of testing is 9888
+17/03/24 21:40:46 INFO WRMFRecommender: Job Setup completed.
+17/03/24 21:40:47 INFO WRMFRecommender: class net.librec.recommender.cf.ranking.WRMFRecommender runs at iteration = 1 Fri Mar 24 21:40:47 CST 2017
+17/03/24 21:40:47 ERROR test_all_ranking_pure: 
+17/03/24 21:40:47 INFO test_all_ranking_pure: ********************************************************************************
+17/03/24 21:40:47 INFO test_all_ranking_pure: Begin
+
+17/03/24 21:40:47 INFO test_all_ranking_pure: rec.iterator.learnrate=0.01
+rec.eval.classes=auc
+rec.iterator.maximum=200
+rec.item.regularization=0.01
+rec.recommender.ranking.topn=10
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.recommender.class=wrmf
+rec.wrmf.weight.coefficient=4
+rec.factor.number=10
+rec.eval.enable=true
+rec.user.regularization=0.01
+
+17/03/24 21:40:47 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/24 21:40:47 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\backup\movielens100k_librec.txt, E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/24 21:40:47 INFO TextDataConvertor: All dataset files size 9182055
+17/03/24 21:40:47 INFO TextDataConvertor: Now loading dataset file movielens100k_librec
+17/03/24 21:40:48 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/24 21:40:49 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/24 21:40:50 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/24 21:40:50 INFO TextDataModel: Data size of training is 79130
+17/03/24 21:40:50 INFO TextDataModel: Data size of testing is 9888
+17/03/24 21:40:50 INFO WRMFRecommender: Job Setup completed.
+17/03/24 21:40:51 INFO WRMFRecommender: class net.librec.recommender.cf.ranking.WRMFRecommender runs at iteration = 1 Fri Mar 24 21:40:51 CST 2017
+17/03/24 21:40:51 ERROR test_all_ranking_pure: 
+17/03/24 21:40:51 INFO test_all_ranking_pure: ********************************************************************************
+17/03/24 21:40:51 INFO test_all_ranking_pure: Begin
+
+17/03/24 21:40:51 INFO test_all_ranking_pure: rec.iterator.learnrate=0.01
+rec.eval.classes=auc
+rec.iterator.maximum=200
+rec.item.regularization=0.01
+rec.recommender.ranking.topn=10
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.recommender.class=wrmf
+rec.wrmf.weight.coefficient=5
+rec.factor.number=10
+rec.eval.enable=true
+rec.user.regularization=0.01
+
+17/03/24 21:40:51 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/24 21:40:51 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\backup\movielens100k_librec.txt, E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/24 21:40:51 INFO TextDataConvertor: All dataset files size 9182055
+17/03/24 21:40:51 INFO TextDataConvertor: Now loading dataset file movielens100k_librec
+17/03/24 21:40:52 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/24 21:40:53 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/24 21:40:53 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/24 21:40:53 INFO TextDataModel: Data size of training is 79130
+17/03/24 21:40:53 INFO TextDataModel: Data size of testing is 9888
+17/03/24 21:40:53 INFO WRMFRecommender: Job Setup completed.
+17/03/24 21:40:54 INFO WRMFRecommender: class net.librec.recommender.cf.ranking.WRMFRecommender runs at iteration = 1 Fri Mar 24 21:40:54 CST 2017
+17/03/24 21:40:54 ERROR test_all_ranking_pure: 
+17/03/24 21:40:54 INFO test_all_ranking_pure: ********************************************************************************
+17/03/24 21:40:54 INFO test_all_ranking_pure: Begin
+
+17/03/24 21:40:54 INFO test_all_ranking_pure: rec.iterator.learnrate=0.01
+rec.eval.classes=auc
+rec.iterator.maximum=200
+rec.item.regularization=0.1
+rec.recommender.ranking.topn=10
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.recommender.class=wrmf
+rec.wrmf.weight.coefficient=4
+rec.factor.number=10
+rec.eval.enable=true
+rec.user.regularization=0.1
+
+17/03/24 21:40:54 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/24 21:40:54 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\backup\movielens100k_librec.txt, E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/24 21:40:54 INFO TextDataConvertor: All dataset files size 9182055
+17/03/24 21:40:54 INFO TextDataConvertor: Now loading dataset file movielens100k_librec
+17/03/24 21:40:55 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/24 21:40:56 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/24 21:40:57 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/24 21:40:57 INFO TextDataModel: Data size of training is 79130
+17/03/24 21:40:57 INFO TextDataModel: Data size of testing is 9888
+17/03/24 21:40:57 INFO WRMFRecommender: Job Setup completed.
+17/03/24 21:40:57 INFO WRMFRecommender: class net.librec.recommender.cf.ranking.WRMFRecommender runs at iteration = 1 Fri Mar 24 21:40:57 CST 2017
+17/03/24 21:40:57 ERROR test_all_ranking_pure: 
+17/03/24 21:40:57 INFO test_all_ranking_pure: ********************************************************************************
+17/03/24 21:40:57 INFO test_all_ranking_pure: Begin
+
+17/03/24 21:40:57 INFO test_all_ranking_pure: rec.iterator.learnrate=0.01
+rec.eval.classes=auc
+rec.iterator.maximum=200
+rec.item.regularization=0.1
+rec.recommender.ranking.topn=10
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.recommender.class=wrmf
+rec.wrmf.weight.coefficient=5
+rec.factor.number=10
+rec.eval.enable=true
+rec.user.regularization=0.1
+
+17/03/24 21:40:57 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/24 21:40:57 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\backup\movielens100k_librec.txt, E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/24 21:40:57 INFO TextDataConvertor: All dataset files size 9182055
+17/03/24 21:40:57 INFO TextDataConvertor: Now loading dataset file movielens100k_librec
+17/03/24 21:40:58 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/24 21:41:00 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/24 21:41:00 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/24 21:41:00 INFO TextDataModel: Data size of training is 79130
+17/03/24 21:41:00 INFO TextDataModel: Data size of testing is 9888
+17/03/24 21:41:00 INFO WRMFRecommender: Job Setup completed.

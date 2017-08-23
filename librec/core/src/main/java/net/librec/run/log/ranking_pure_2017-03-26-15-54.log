@@ -1,0 +1,135 @@
+17/03/26 15:54:03 INFO test_all_ranking_pure: ********************************************************************************
+17/03/26 15:54:03 INFO test_all_ranking_pure: Begin
+
+17/03/26 15:54:03 INFO test_all_ranking_pure: 
+rec.iterator.learnrate=0.1
+rec.eval.classes=auc
+rec.learnrate.decay=1.0
+rec.iterator.maximum=100
+rec.iterator.learnrate.maximum=0.01
+rec.item.regularization=0.1
+rec.recommender.ranking.topn=10
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.recommender.class=listwisemf
+rec.learnrate.bolddriver=true
+rec.factor.number=10
+rec.eval.enable=true
+rec.user.regularization=0.1
+
+17/03/26 15:54:03 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/26 15:54:03 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/26 15:54:03 INFO TextDataConvertor: All dataset files size 6153533
+17/03/26 15:54:03 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/26 15:54:05 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/26 15:54:06 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/26 15:54:06 INFO TextDataModel: Data size of training is 80003
+17/03/26 15:54:06 INFO TextDataModel: Data size of testing is 10001
+17/03/26 15:54:06 INFO ListRankMFRecommender: Job Setup completed.
+17/03/26 15:54:07 INFO ListRankMFRecommender: iter 1 Evaluator value:AUC top 10 is -1.0	0.5074148596531851	0.5096677749787719
+17/03/26 15:54:07 INFO ListRankMFRecommender: iter 2 Evaluator value:AUC top 10 is -1.0	0.5074148596531851	0.5089309788163733
+17/03/26 15:54:09 INFO ListRankMFRecommender: iter 3 Evaluator value:AUC top 10 is -1.0	0.5074148596531851	0.5089308101313907
+17/03/26 15:54:10 INFO ListRankMFRecommender: iter 4 Evaluator value:AUC top 10 is -1.0	0.5066647021494943	0.5089304673273941
+17/03/26 15:54:10 INFO ListRankMFRecommender: iter 5 Evaluator value:AUC top 10 is -1.0	0.5051838818698773	0.5074336961173426
+17/03/26 15:54:11 INFO ListRankMFRecommender: iter 6 Evaluator value:AUC top 10 is -1.0	0.502187692653331	0.5014766358854137
+17/03/26 15:54:12 INFO ListRankMFRecommender: iter 7 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:14 INFO ListRankMFRecommender: iter 8 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:15 INFO ListRankMFRecommender: iter 9 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:15 INFO ListRankMFRecommender: iter 10 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:16 INFO ListRankMFRecommender: iter 11 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:17 INFO ListRankMFRecommender: iter 12 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:18 INFO ListRankMFRecommender: iter 13 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:19 INFO ListRankMFRecommender: iter 14 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:20 INFO ListRankMFRecommender: iter 15 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:21 INFO ListRankMFRecommender: iter 16 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:22 INFO ListRankMFRecommender: iter 17 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:24 INFO ListRankMFRecommender: iter 18 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:25 INFO ListRankMFRecommender: iter 19 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:26 INFO ListRankMFRecommender: iter 20 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:27 INFO ListRankMFRecommender: iter 21 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:28 INFO ListRankMFRecommender: iter 22 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:28 INFO ListRankMFRecommender: iter 23 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:29 INFO ListRankMFRecommender: iter 24 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:29 INFO ListRankMFRecommender: iter 25 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:29 INFO ListRankMFRecommender: iter 26 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:30 INFO ListRankMFRecommender: iter 27 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:31 INFO ListRankMFRecommender: iter 28 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:31 INFO ListRankMFRecommender: iter 29 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:31 INFO ListRankMFRecommender: iter 30 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:32 INFO ListRankMFRecommender: iter 31 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:33 INFO ListRankMFRecommender: iter 32 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:33 INFO ListRankMFRecommender: iter 33 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:34 INFO ListRankMFRecommender: iter 34 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:35 INFO ListRankMFRecommender: iter 35 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:36 INFO ListRankMFRecommender: iter 36 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:37 INFO ListRankMFRecommender: iter 37 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:38 INFO ListRankMFRecommender: iter 38 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:40 INFO ListRankMFRecommender: iter 39 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:41 INFO ListRankMFRecommender: iter 40 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:42 INFO ListRankMFRecommender: iter 41 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:43 INFO ListRankMFRecommender: iter 42 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:43 INFO ListRankMFRecommender: iter 43 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:44 INFO ListRankMFRecommender: iter 44 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:44 INFO ListRankMFRecommender: iter 45 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:45 INFO ListRankMFRecommender: iter 46 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:45 INFO ListRankMFRecommender: iter 47 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:45 INFO ListRankMFRecommender: iter 48 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:46 INFO ListRankMFRecommender: iter 49 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:47 INFO ListRankMFRecommender: iter 50 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:48 INFO ListRankMFRecommender: iter 51 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:48 INFO ListRankMFRecommender: iter 52 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:49 INFO ListRankMFRecommender: iter 53 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:49 INFO ListRankMFRecommender: iter 54 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:49 INFO ListRankMFRecommender: iter 55 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:50 INFO ListRankMFRecommender: iter 56 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:50 INFO ListRankMFRecommender: iter 57 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:51 INFO ListRankMFRecommender: iter 58 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:51 INFO ListRankMFRecommender: iter 59 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:52 INFO ListRankMFRecommender: iter 60 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:52 INFO ListRankMFRecommender: iter 61 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:52 INFO ListRankMFRecommender: iter 62 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:53 INFO ListRankMFRecommender: iter 63 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:53 INFO ListRankMFRecommender: iter 64 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:54 INFO ListRankMFRecommender: iter 65 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:54 INFO ListRankMFRecommender: iter 66 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:54 INFO ListRankMFRecommender: iter 67 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:55 INFO ListRankMFRecommender: iter 68 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:55 INFO ListRankMFRecommender: iter 69 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:56 INFO ListRankMFRecommender: iter 70 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:56 INFO ListRankMFRecommender: iter 71 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:57 INFO ListRankMFRecommender: iter 72 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:58 INFO ListRankMFRecommender: iter 73 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:54:59 INFO ListRankMFRecommender: iter 74 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:00 INFO ListRankMFRecommender: iter 75 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:01 INFO ListRankMFRecommender: iter 76 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:01 INFO ListRankMFRecommender: iter 77 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:01 INFO ListRankMFRecommender: iter 78 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:02 INFO ListRankMFRecommender: iter 79 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:02 INFO ListRankMFRecommender: iter 80 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:03 INFO ListRankMFRecommender: iter 81 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:03 INFO ListRankMFRecommender: iter 82 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:03 INFO ListRankMFRecommender: iter 83 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:04 INFO ListRankMFRecommender: iter 84 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:04 INFO ListRankMFRecommender: iter 85 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:05 INFO ListRankMFRecommender: iter 86 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:05 INFO ListRankMFRecommender: iter 87 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:05 INFO ListRankMFRecommender: iter 88 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:06 INFO ListRankMFRecommender: iter 89 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:06 INFO ListRankMFRecommender: iter 90 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:07 INFO ListRankMFRecommender: iter 91 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:07 INFO ListRankMFRecommender: iter 92 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:07 INFO ListRankMFRecommender: iter 93 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:08 INFO ListRankMFRecommender: iter 94 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:08 INFO ListRankMFRecommender: iter 95 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:09 INFO ListRankMFRecommender: iter 96 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:09 INFO ListRankMFRecommender: iter 97 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:09 INFO ListRankMFRecommender: iter 98 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:10 INFO ListRankMFRecommender: iter 99 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:10 INFO ListRankMFRecommender: iter 100 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 15:55:10 INFO ListRankMFRecommender: Job Train completed.
+17/03/26 15:55:10 INFO ListRankMFRecommender: Job End.
+17/03/26 15:55:10 INFO RecommenderJob: Evaluator info:AUCEvaluator is 0.502205143679674
+17/03/26 15:55:11 INFO RecommenderJob: Result path is E:/Users/v-fuz/tools/recommender_system/librec_sourcecode/librec/core/src/main/java/net/librec/run/result/movielens/ml-100k-split-listwisemf-output/listwisemf
+17/03/26 15:55:11 INFO test_all_ranking_pure: End
+
+

@@ -1,0 +1,53 @@
+17/03/23 12:30:31 INFO test_all_ranking_pure: ********************************************************************************
+17/03/23 12:30:31 INFO test_all_ranking_pure: Begin
+
+17/03/23 12:30:31 INFO test_all_ranking_pure: rec.eval.enable=true
+rec.recommender.class=personalitydiagnosis
+rec.eval.classes=auc
+rec.recommender.isranking=true
+rec.PersonalityDiagnosis.sigma=2.0
+rec.random.seed=1
+rec.recommender.ranking.topn=10
+
+17/03/23 12:30:31 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/23 12:30:31 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\movielens100k_librec.txt]
+17/03/23 12:30:31 INFO TextDataConvertor: All dataset files size 3029027
+17/03/23 12:30:31 INFO TextDataConvertor: Now loading dataset file movielens100k_librec
+17/03/23 12:30:33 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/23 12:30:33 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/23 12:30:33 INFO TextDataModel: Data size of training is 49651
+17/03/23 12:30:33 INFO TextDataModel: Data size of testing is 6225
+17/03/23 12:30:33 INFO PersonalityDiagnosisRecommender: Job Setup completed.
+17/03/23 12:30:33 INFO PersonalityDiagnosisRecommender: Job Train completed.
+17/03/23 12:33:19 INFO PersonalityDiagnosisRecommender: Job End.
+17/03/23 12:33:19 INFO RecommenderJob: Evaluator info:AUCEvaluator is 0.5328189817933606
+17/03/23 12:33:19 INFO RecommenderJob: Result path is E:/Users/v-fuz/tools/recommender_system/librec_sourcecode/librec/core/src/main/java/net/librec/run/result/movielens/ml-100k-split-personalitydiagnosis-output/personalitydiagnosis
+17/03/23 12:33:19 INFO test_all_ranking_pure: End
+
+
+17/03/23 12:33:19 INFO test_all_ranking_pure: ********************************************************************************
+17/03/23 12:33:19 INFO test_all_ranking_pure: Begin
+
+17/03/23 12:33:19 INFO test_all_ranking_pure: rec.eval.enable=true
+rec.recommender.class=slopeone
+rec.eval.classes=auc
+rec.recommender.isranking=true
+rec.random.seed=1
+rec.recommender.ranking.topn=10
+
+17/03/23 12:33:19 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/23 12:33:19 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\movielens100k_librec.txt]
+17/03/23 12:33:19 INFO TextDataConvertor: All dataset files size 3029027
+17/03/23 12:33:19 INFO TextDataConvertor: Now loading dataset file movielens100k_librec
+17/03/23 12:33:20 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/23 12:33:20 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/23 12:33:20 INFO TextDataModel: Data size of training is 49651
+17/03/23 12:33:20 INFO TextDataModel: Data size of testing is 6225
+17/03/23 12:33:23 INFO SlopeOneRecommender: Job Setup completed.
+17/03/23 12:33:24 INFO SlopeOneRecommender: Job Train completed.
+17/03/23 12:33:41 INFO SlopeOneRecommender: Job End.
+17/03/23 12:33:41 INFO RecommenderJob: Evaluator info:AUCEvaluator is 0.5328189817933606
+17/03/23 12:33:41 INFO RecommenderJob: Result path is E:/Users/v-fuz/tools/recommender_system/librec_sourcecode/librec/core/src/main/java/net/librec/run/result/movielens/ml-100k-split-slopeone-output/slopeone
+17/03/23 12:33:41 INFO test_all_ranking_pure: End
+
+

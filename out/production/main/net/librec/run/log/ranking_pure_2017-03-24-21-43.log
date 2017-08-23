@@ -1,0 +1,51 @@
+17/03/24 21:43:21 INFO test_all_ranking_pure: ********************************************************************************
+17/03/24 21:43:21 INFO test_all_ranking_pure: Begin
+
+17/03/24 21:43:21 INFO test_all_ranking_pure: rec.iterator.learnrate=0.01
+rec.eval.classes=auc
+rec.iterator.maximum=200
+rec.item.regularization=0.05
+rec.recommender.ranking.topn=10
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.recommender.class=wrmf
+rec.wrmf.weight.coefficient=4
+rec.factor.number=10
+rec.eval.enable=true
+rec.user.regularization=0.05
+
+17/03/24 21:43:21 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/24 21:43:21 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\backup\movielens100k_librec.txt, E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/24 21:43:21 INFO TextDataConvertor: All dataset files size 9182055
+17/03/24 21:43:21 INFO TextDataConvertor: Now loading dataset file movielens100k_librec
+17/03/24 21:43:23 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/24 21:43:25 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/24 21:43:25 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/24 21:43:25 INFO TextDataModel: Data size of training is 79130
+17/03/24 21:43:25 INFO TextDataModel: Data size of testing is 9888
+17/03/24 21:43:25 INFO WRMFRecommender: Job Setup completed.
+17/03/24 21:43:26 INFO WRMFRecommender: class net.librec.recommender.cf.ranking.WRMFRecommender runs at iteration = 1 Fri Mar 24 21:43:26 CST 2017
+17/03/24 21:43:27 INFO WRMFRecommender: iter 1 Evaluator value:AUC top 10 is -1.0	0.6459500520577519	0.6422497929396029
+17/03/24 21:43:29 INFO WRMFRecommender: class net.librec.recommender.cf.ranking.WRMFRecommender runs at iteration = 2 Fri Mar 24 21:43:29 CST 2017
+17/03/24 21:43:29 INFO WRMFRecommender: iter 2 Evaluator value:AUC top 10 is -1.0	0.7810655576077943	0.7697285361783784
+17/03/24 21:43:32 INFO WRMFRecommender: class net.librec.recommender.cf.ranking.WRMFRecommender runs at iteration = 3 Fri Mar 24 21:43:32 CST 2017
+17/03/24 21:43:32 INFO WRMFRecommender: iter 3 Evaluator value:AUC top 10 is -1.0	0.7902058330255168	0.7788937014258664
+17/03/24 21:43:34 INFO WRMFRecommender: class net.librec.recommender.cf.ranking.WRMFRecommender runs at iteration = 4 Fri Mar 24 21:43:34 CST 2017
+17/03/24 21:43:34 INFO WRMFRecommender: iter 4 Evaluator value:AUC top 10 is -1.0	0.7902318622583548	0.795645431807625
+17/03/24 21:43:35 INFO WRMFRecommender: class net.librec.recommender.cf.ranking.WRMFRecommender runs at iteration = 5 Fri Mar 24 21:43:35 CST 2017
+17/03/24 21:43:35 INFO WRMFRecommender: iter 5 Evaluator value:AUC top 10 is -1.0	0.7932729994496063	0.800218317163568
+17/03/24 21:43:36 INFO WRMFRecommender: class net.librec.recommender.cf.ranking.WRMFRecommender runs at iteration = 6 Fri Mar 24 21:43:36 CST 2017
+17/03/24 21:43:37 INFO WRMFRecommender: iter 6 Evaluator value:AUC top 10 is -1.0	0.8001242147510932	0.8040082110278448
+17/03/24 21:43:39 INFO WRMFRecommender: class net.librec.recommender.cf.ranking.WRMFRecommender runs at iteration = 7 Fri Mar 24 21:43:39 CST 2017
+17/03/24 21:43:39 INFO WRMFRecommender: iter 7 Evaluator value:AUC top 10 is -1.0	0.8016421060898744	0.8017433551088049
+17/03/24 21:43:40 INFO WRMFRecommender: class net.librec.recommender.cf.ranking.WRMFRecommender runs at iteration = 8 Fri Mar 24 21:43:40 CST 2017
+17/03/24 21:43:41 INFO WRMFRecommender: iter 8 Evaluator value:AUC top 10 is -1.0	0.8008640864484551	0.8055306242673846
+17/03/24 21:43:42 INFO WRMFRecommender: class net.librec.recommender.cf.ranking.WRMFRecommender runs at iteration = 9 Fri Mar 24 21:43:42 CST 2017
+17/03/24 21:43:42 INFO WRMFRecommender: iter 9 Evaluator value:AUC top 10 is -1.0	0.8000967882796582	0.8039911913115774
+17/03/24 21:43:43 INFO WRMFRecommender: class net.librec.recommender.cf.ranking.WRMFRecommender runs at iteration = 10 Fri Mar 24 21:43:43 CST 2017
+17/03/24 21:43:44 INFO WRMFRecommender: iter 10 Evaluator value:AUC top 10 is -1.0	0.7985695034194563	0.8055112414693998
+17/03/24 21:43:45 INFO WRMFRecommender: class net.librec.recommender.cf.ranking.WRMFRecommender runs at iteration = 11 Fri Mar 24 21:43:45 CST 2017
+17/03/24 21:43:45 INFO WRMFRecommender: iter 11 Evaluator value:AUC top 10 is -1.0	0.7970945477177219	0.8001751338679731
+17/03/24 21:43:46 INFO WRMFRecommender: class net.librec.recommender.cf.ranking.WRMFRecommender runs at iteration = 12 Fri Mar 24 21:43:46 CST 2017
+17/03/24 21:43:47 INFO WRMFRecommender: iter 12 Evaluator value:AUC top 10 is -1.0	0.7947893220893687	0.801702080587996
+17/03/24 21:43:48 INFO WRMFRecommender: class net.librec.recommender.cf.ranking.WRMFRecommender runs at iteration = 13 Fri Mar 24 21:43:48 CST 2017

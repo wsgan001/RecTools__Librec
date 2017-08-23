@@ -1,0 +1,45 @@
+17/03/26 22:32:38 INFO test_all_ranking_pure: ********************************************************************************
+17/03/26 22:32:38 INFO test_all_ranking_pure: Begin
+
+17/03/26 22:32:38 INFO test_all_ranking_pure: 
+rec.iterator.learnrate=0.1
+rec.eval.classes=auc
+rec.learnrate.decay=1.0
+rec.iterator.maximum=10
+rec.iterator.learnrate.maximum=0.01
+rec.item.regularization=0.1
+rec.recommender.ranking.topn=10
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.recommender.class=listwisemf
+rec.learnrate.bolddriver=false
+rec.factor.number=10
+rec.eval.enable=true
+rec.user.regularization=0.1
+
+17/03/26 22:32:38 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/26 22:32:38 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/26 22:32:38 INFO TextDataConvertor: All dataset files size 6153533
+17/03/26 22:32:38 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/26 22:32:41 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/26 22:32:41 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/26 22:32:41 INFO TextDataModel: Data size of training is 80003
+17/03/26 22:32:41 INFO TextDataModel: Data size of testing is 10001
+17/03/26 22:32:41 INFO ListRankMFRecommender: Job Setup completed.
+17/03/26 22:32:43 INFO ListRankMFRecommender: iter 1 Evaluator value:AUC top 10 is -1.0	0.5074148596531851	0.5096677749787719
+17/03/26 22:32:43 INFO ListRankMFRecommender: iter 2 Evaluator value:AUC top 10 is -1.0	0.5074148596531851	0.5089309788163733
+17/03/26 22:32:44 INFO ListRankMFRecommender: iter 3 Evaluator value:AUC top 10 is -1.0	0.5074148596531851	0.5089308101313907
+17/03/26 22:32:45 INFO ListRankMFRecommender: iter 4 Evaluator value:AUC top 10 is -1.0	0.5066647021494943	0.5089304673273941
+17/03/26 22:32:46 INFO ListRankMFRecommender: iter 5 Evaluator value:AUC top 10 is -1.0	0.5051838818698773	0.5074336961173426
+17/03/26 22:32:46 INFO ListRankMFRecommender: iter 6 Evaluator value:AUC top 10 is -1.0	0.502187692653331	0.5014766358854137
+17/03/26 22:32:48 INFO ListRankMFRecommender: iter 7 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 22:32:49 INFO ListRankMFRecommender: iter 8 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 22:32:50 INFO ListRankMFRecommender: iter 9 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 22:32:50 INFO ListRankMFRecommender: iter 10 Evaluator value:AUC top 10 is -1.0	0.5029358243016137	0.502205143679674
+17/03/26 22:32:50 INFO ListRankMFRecommender: Job Train completed.
+17/03/26 22:32:51 INFO ListRankMFRecommender: Job End.
+17/03/26 22:32:51 INFO RecommenderJob: Evaluator info:AUCEvaluator is 0.502205143679674
+17/03/26 22:32:51 INFO RecommenderJob: Result path is E:/Users/v-fuz/tools/recommender_system/librec_sourcecode/librec/core/src/main/java/net/librec/run/result/movielens/ml-100k-split-listwisemf-output/listwisemf
+17/03/26 22:32:51 INFO test_all_ranking_pure: End
+
+

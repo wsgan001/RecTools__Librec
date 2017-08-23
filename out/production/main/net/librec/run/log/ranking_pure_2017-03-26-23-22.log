@@ -1,0 +1,243 @@
+17/03/26 23:22:04 INFO test_all_ranking_pure: ********************************************************************************
+17/03/26 23:22:04 INFO test_all_ranking_pure: Begin
+
+17/03/26 23:22:04 INFO test_all_ranking_pure: 
+rec.iterator.learnrate=0.01
+rec.eval.classes=auc
+rec.iterator.maximum=200
+rec.iterator.learnrate.maximum=0.01
+rec.learnRate.decay=1.0
+rec.item.regularization=0.01
+rec.recommender.ranking.topn=10
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.recommender.class=bpr
+rec.factor.number=10
+rec.learnRate.bolddriver=false
+rec.eval.enable=true
+rec.user.regularization=0.01
+
+17/03/26 23:22:04 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/26 23:22:04 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/26 23:22:04 INFO TextDataConvertor: All dataset files size 6153533
+17/03/26 23:22:04 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/26 23:22:35 INFO test_all_ranking_pure: ********************************************************************************
+17/03/26 23:22:35 INFO test_all_ranking_pure: Begin
+
+17/03/26 23:22:35 INFO test_all_ranking_pure: 
+rec.iterator.learnrate=0.01
+rec.eval.classes=auc
+rec.iterator.maximum=200
+rec.iterator.learnrate.maximum=0.01
+rec.learnRate.decay=1.0
+rec.item.regularization=0.001
+rec.recommender.ranking.topn=10
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.recommender.class=bpr
+rec.factor.number=10
+rec.learnRate.bolddriver=false
+rec.eval.enable=true
+rec.user.regularization=0.001
+
+17/03/26 23:22:35 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/26 23:22:35 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/26 23:22:35 INFO TextDataConvertor: All dataset files size 6153533
+17/03/26 23:22:35 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/26 23:22:37 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/26 23:22:37 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/26 23:22:37 INFO TextDataModel: Data size of training is 80003
+17/03/26 23:22:37 INFO TextDataModel: Data size of testing is 10001
+17/03/26 23:22:37 INFO BPRRecommender: Job Setup completed.
+17/03/26 23:22:38 INFO BPRRecommender: iter 1 Evaluator value:AUC top 10 is -1.0	0.5066851532578414	0.5037214160927259
+17/03/26 23:22:38 INFO BPRRecommender: iter 2 Evaluator value:AUC top 10 is -1.0	0.5074404865780398	0.5044508073165354
+17/03/26 23:22:39 INFO BPRRecommender: iter 3 Evaluator value:AUC top 10 is -1.0	0.5149107415364189	0.5104355622366585
+17/03/26 23:22:40 INFO BPRRecommender: iter 4 Evaluator value:AUC top 10 is -1.0	0.5238594341510282	0.5202364856271687
+17/03/26 23:22:41 INFO BPRRecommender: iter 5 Evaluator value:AUC top 10 is -1.0	0.5568669138929306	0.562361580462241
+17/03/26 23:22:41 INFO BPRRecommender: iter 6 Evaluator value:AUC top 10 is -1.0	0.6221348848515449	0.6202538614018821
+17/03/26 23:22:42 INFO BPRRecommender: iter 7 Evaluator value:AUC top 10 is -1.0	0.6647872478318068	0.6757738376546238
+17/03/26 23:22:43 INFO BPRRecommender: iter 8 Evaluator value:AUC top 10 is -1.0	0.7021740088526196	0.6997332451684138
+17/03/26 23:22:44 INFO BPRRecommender: iter 9 Evaluator value:AUC top 10 is -1.0	0.7185994060733907	0.7184679508532831
+17/03/26 23:22:44 INFO BPRRecommender: iter 10 Evaluator value:AUC top 10 is -1.0	0.7260713664177669	0.7229834623964704
+17/03/26 23:22:45 INFO BPRRecommender: iter 11 Evaluator value:AUC top 10 is -1.0	0.7305789515408508	0.7297567575744663
+17/03/26 23:22:46 INFO BPRRecommender: iter 12 Evaluator value:AUC top 10 is -1.0	0.7358325332532469	0.7395356999343327
+17/03/26 23:22:47 INFO BPRRecommender: iter 13 Evaluator value:AUC top 10 is -1.0	0.7403562244282366	0.7455542463586698
+17/03/26 23:22:47 INFO BPRRecommender: iter 14 Evaluator value:AUC top 10 is -1.0	0.7433519688204214	0.7470619058627724
+17/03/26 23:22:48 INFO BPRRecommender: iter 15 Evaluator value:AUC top 10 is -1.0	0.7493283156812406	0.7508205709485558
+17/03/26 23:22:49 INFO BPRRecommender: iter 16 Evaluator value:AUC top 10 is -1.0	0.7523203865784435	0.7583401162627254
+17/03/26 23:22:51 INFO BPRRecommender: iter 17 Evaluator value:AUC top 10 is -1.0	0.7523255030801743	0.758339180107755
+17/03/26 23:22:52 INFO BPRRecommender: iter 18 Evaluator value:AUC top 10 is -1.0	0.7553350153803735	0.7553364502570511
+17/03/26 23:22:53 INFO BPRRecommender: iter 19 Evaluator value:AUC top 10 is -1.0	0.7560708283738744	0.759096696582128
+17/03/26 23:22:53 INFO BPRRecommender: iter 20 Evaluator value:AUC top 10 is -1.0	0.7560597847395414	0.7590997569890785
+17/03/26 23:22:54 INFO BPRRecommender: iter 21 Evaluator value:AUC top 10 is -1.0	0.7560654267919136	0.7576013773541782
+17/03/26 23:22:55 INFO BPRRecommender: iter 22 Evaluator value:AUC top 10 is -1.0	0.7590556896524667	0.7628659602193323
+17/03/26 23:22:56 INFO BPRRecommender: iter 23 Evaluator value:AUC top 10 is -1.0	0.7628086063816341	0.7628813151229772
+17/03/26 23:22:56 INFO BPRRecommender: iter 24 Evaluator value:AUC top 10 is -1.0	0.7620841937535477	0.7643875760145088
+17/03/26 23:22:57 INFO BPRRecommender: iter 25 Evaluator value:AUC top 10 is -1.0	0.7673411928927483	0.7651443144757091
+17/03/26 23:22:58 INFO BPRRecommender: iter 26 Evaluator value:AUC top 10 is -1.0	0.7666010873146066	0.7651502761362391
+17/03/26 23:22:59 INFO BPRRecommender: iter 27 Evaluator value:AUC top 10 is -1.0	0.7666241305402862	0.7666610327835964
+17/03/26 23:22:59 INFO BPRRecommender: iter 28 Evaluator value:AUC top 10 is -1.0	0.7718620445201879	0.7651547476639683
+17/03/26 23:23:00 INFO BPRRecommender: iter 29 Evaluator value:AUC top 10 is -1.0	0.7696442279591422	0.7681699085627806
+17/03/26 23:23:00 INFO BPRRecommender: iter 30 Evaluator value:AUC top 10 is -1.0	0.7718492787252743	0.7696719311488533
+17/03/26 23:23:02 INFO BPRRecommender: iter 31 Evaluator value:AUC top 10 is -1.0	0.7718631128723684	0.7643997213923562
+17/03/26 23:23:02 INFO BPRRecommender: iter 32 Evaluator value:AUC top 10 is -1.0	0.7703477322226548	0.7643968122443704
+17/03/26 23:23:03 INFO BPRRecommender: iter 33 Evaluator value:AUC top 10 is -1.0	0.7718522039841473	0.7651493751745945
+17/03/26 23:23:04 INFO BPRRecommender: iter 34 Evaluator value:AUC top 10 is -1.0	0.7666286589175321	0.7628847934634563
+17/03/26 23:23:04 INFO BPRRecommender: iter 35 Evaluator value:AUC top 10 is -1.0	0.7681271569091023	0.7636409043095785
+17/03/26 23:23:05 INFO BPRRecommender: iter 36 Evaluator value:AUC top 10 is -1.0	0.7651487832484373	0.7674114238947785
+17/03/26 23:23:06 INFO BPRRecommender: iter 37 Evaluator value:AUC top 10 is -1.0	0.7673535439628815	0.7659081238793403
+17/03/26 23:23:07 INFO BPRRecommender: iter 38 Evaluator value:AUC top 10 is -1.0	0.7688520512709033	0.7636377282720354
+17/03/26 23:23:08 INFO BPRRecommender: iter 39 Evaluator value:AUC top 10 is -1.0	0.7659092093751186	0.7681625095113737
+17/03/26 23:23:09 INFO BPRRecommender: iter 40 Evaluator value:AUC top 10 is -1.0	0.7658982609575625	0.7606285130799245
+17/03/26 23:23:10 INFO BPRRecommender: iter 41 Evaluator value:AUC top 10 is -1.0	0.7643659074466483	0.7636457422895562
+17/03/26 23:23:11 INFO BPRRecommender: iter 42 Evaluator value:AUC top 10 is -1.0	0.7628863370162636	0.7674171103542402
+17/03/26 23:23:12 INFO BPRRecommender: iter 43 Evaluator value:AUC top 10 is -1.0	0.7696242151261709	0.7659053969206805
+17/03/26 23:23:13 INFO BPRRecommender: iter 44 Evaluator value:AUC top 10 is -1.0	0.7681094006624334	0.7658998952748174
+17/03/26 23:23:13 INFO BPRRecommender: iter 45 Evaluator value:AUC top 10 is -1.0	0.7696294328178451	0.7696673312175724
+17/03/26 23:23:14 INFO BPRRecommender: iter 46 Evaluator value:AUC top 10 is -1.0	0.7673676972158074	0.7674125327130312
+17/03/26 23:23:15 INFO BPRRecommender: iter 47 Evaluator value:AUC top 10 is -1.0	0.7688756365386022	0.7703995851940312
+17/03/26 23:23:16 INFO BPRRecommender: iter 48 Evaluator value:AUC top 10 is -1.0	0.7696198829422372	0.7666519936687319
+17/03/26 23:23:17 INFO BPRRecommender: iter 49 Evaluator value:AUC top 10 is -1.0	0.7681162216127084	0.7704038650041196
+17/03/26 23:23:18 INFO BPRRecommender: iter 50 Evaluator value:AUC top 10 is -1.0	0.7711456416421597	0.7696397067105121
+17/03/26 23:23:19 INFO BPRRecommender: iter 51 Evaluator value:AUC top 10 is -1.0	0.7681390037195736	0.7681575365667241
+17/03/26 23:23:20 INFO BPRRecommender: iter 52 Evaluator value:AUC top 10 is -1.0	0.777098930172481	0.768886029063152
+17/03/26 23:23:20 INFO BPRRecommender: iter 53 Evaluator value:AUC top 10 is -1.0	0.7718245626179541	0.7719035837120901
+17/03/26 23:23:21 INFO BPRRecommender: iter 54 Evaluator value:AUC top 10 is -1.0	0.7710762835332624	0.7681353936734652
+17/03/26 23:23:22 INFO BPRRecommender: iter 55 Evaluator value:AUC top 10 is -1.0	0.7718435566559255	0.7696466408613803
+17/03/26 23:23:22 INFO BPRRecommender: iter 56 Evaluator value:AUC top 10 is -1.0	0.7710614320597359	0.7696380965728064
+17/03/26 23:23:23 INFO BPRRecommender: iter 57 Evaluator value:AUC top 10 is -1.0	0.7695666194104271	0.7681537978201629
+17/03/26 23:23:24 INFO BPRRecommender: iter 58 Evaluator value:AUC top 10 is -1.0	0.770314843187139	0.7666517038740496
+17/03/26 23:23:24 INFO BPRRecommender: iter 59 Evaluator value:AUC top 10 is -1.0	0.7695556886763317	0.7681513626575442
+17/03/26 23:23:25 INFO BPRRecommender: iter 60 Evaluator value:AUC top 10 is -1.0	0.771057298137448	0.7696467972118541
+17/03/26 23:23:25 INFO BPRRecommender: iter 61 Evaluator value:AUC top 10 is -1.0	0.7718061681204722	0.7651462728598294
+17/03/26 23:23:26 INFO BPRRecommender: iter 62 Evaluator value:AUC top 10 is -1.0	0.7718364226496469	0.7659021373805899
+17/03/26 23:23:26 INFO BPRRecommender: iter 63 Evaluator value:AUC top 10 is -1.0	0.769582832394871	0.7658886152705581
+17/03/26 23:23:27 INFO BPRRecommender: iter 64 Evaluator value:AUC top 10 is -1.0	0.7748452897117861	0.7689221683261526
+17/03/26 23:23:27 INFO BPRRecommender: iter 65 Evaluator value:AUC top 10 is -1.0	0.7786056618997627	0.7681538832613254
+17/03/26 23:23:28 INFO BPRRecommender: iter 66 Evaluator value:AUC top 10 is -1.0	0.7733497177364427	0.7651470061151262
+17/03/26 23:23:29 INFO BPRRecommender: iter 67 Evaluator value:AUC top 10 is -1.0	0.7718525592230587	0.7658809658699336
+17/03/26 23:23:30 INFO BPRRecommender: iter 68 Evaluator value:AUC top 10 is -1.0	0.7733740564876832	0.7666306924926634
+17/03/26 23:23:30 INFO BPRRecommender: iter 69 Evaluator value:AUC top 10 is -1.0	0.7741152767347649	0.766628845758038
+17/03/26 23:23:31 INFO BPRRecommender: iter 70 Evaluator value:AUC top 10 is -1.0	0.7755955235134687	0.7651307057831991
+17/03/26 23:23:32 INFO BPRRecommender: iter 71 Evaluator value:AUC top 10 is -1.0	0.7741064324743007	0.7621199083806968
+17/03/26 23:23:33 INFO BPRRecommender: iter 72 Evaluator value:AUC top 10 is -1.0	0.7718484000445257	0.7688894120813555
+17/03/26 23:23:33 INFO BPRRecommender: iter 73 Evaluator value:AUC top 10 is -1.0	0.7726143370609319	0.7666552163526879
+17/03/26 23:23:34 INFO BPRRecommender: iter 74 Evaluator value:AUC top 10 is -1.0	0.7725960927944249	0.7666556999775805
+17/03/26 23:23:35 INFO BPRRecommender: iter 75 Evaluator value:AUC top 10 is -1.0	0.7711036944232117	0.7658990156852454
+17/03/26 23:23:36 INFO BPRRecommender: iter 76 Evaluator value:AUC top 10 is -1.0	0.7688325896703633	0.7666484556599745
+17/03/26 23:23:36 INFO BPRRecommender: iter 77 Evaluator value:AUC top 10 is -1.0	0.7703424796201918	0.7659039566217172
+17/03/26 23:23:37 INFO BPRRecommender: iter 78 Evaluator value:AUC top 10 is -1.0	0.7703355929522763	0.7621700642665636
+17/03/26 23:23:38 INFO BPRRecommender: iter 79 Evaluator value:AUC top 10 is -1.0	0.7815739818844971	0.7636461146989536
+17/03/26 23:23:38 INFO BPRRecommender: iter 80 Evaluator value:AUC top 10 is -1.0	0.7778291287211144	0.7659009773194073
+17/03/26 23:23:39 INFO BPRRecommender: iter 81 Evaluator value:AUC top 10 is -1.0	0.7763422190902529	0.7666510520520872
+17/03/26 23:23:40 INFO BPRRecommender: iter 82 Evaluator value:AUC top 10 is -1.0	0.7793501860065807	0.7674142419549622
+17/03/26 23:23:41 INFO BPRRecommender: iter 83 Evaluator value:AUC top 10 is -1.0	0.7778408752217552	0.7681508897913852
+17/03/26 23:23:41 INFO BPRRecommender: iter 84 Evaluator value:AUC top 10 is -1.0	0.7793225788596837	0.7704047962442528
+17/03/26 23:23:42 INFO BPRRecommender: iter 85 Evaluator value:AUC top 10 is -1.0	0.7763627607835998	0.7658807898608916
+17/03/26 23:23:43 INFO BPRRecommender: iter 86 Evaluator value:AUC top 10 is -1.0	0.7763608581101666	0.7681455763506048
+17/03/26 23:23:43 INFO BPRRecommender: iter 87 Evaluator value:AUC top 10 is -1.0	0.7741187287951852	0.7643870539925613
+17/03/26 23:23:44 INFO BPRRecommender: iter 88 Evaluator value:AUC top 10 is -1.0	0.774867621379717	0.7666412499718663
+17/03/26 23:23:45 INFO BPRRecommender: iter 89 Evaluator value:AUC top 10 is -1.0	0.7725993524518142	0.7681584085782721
+17/03/26 23:23:45 INFO BPRRecommender: iter 90 Evaluator value:AUC top 10 is -1.0	0.7710941724041104	0.7673958532748819
+17/03/26 23:23:46 INFO BPRRecommender: iter 91 Evaluator value:AUC top 10 is -1.0	0.769594810818016	0.7636287853993008
+17/03/26 23:23:47 INFO BPRRecommender: iter 92 Evaluator value:AUC top 10 is -1.0	0.7673185097739728	0.7613893021300153
+17/03/26 23:23:47 INFO BPRRecommender: iter 93 Evaluator value:AUC top 10 is -1.0	0.7673306589150969	0.7583721921333315
+17/03/26 23:23:48 INFO BPRRecommender: iter 94 Evaluator value:AUC top 10 is -1.0	0.7733476262429586	0.7628888641898904
+17/03/26 23:23:49 INFO BPRRecommender: iter 95 Evaluator value:AUC top 10 is -1.0	0.7756004245790744	0.7689159776206062
+17/03/26 23:23:50 INFO BPRRecommender: iter 96 Evaluator value:AUC top 10 is -1.0	0.7733543480590025	0.768149451894374
+17/03/26 23:23:51 INFO BPRRecommender: iter 97 Evaluator value:AUC top 10 is -1.0	0.768058664618583	0.769641973046144
+17/03/26 23:23:51 INFO BPRRecommender: iter 98 Evaluator value:AUC top 10 is -1.0	0.7740698357614675	0.7673788090459872
+17/03/26 23:23:52 INFO BPRRecommender: iter 99 Evaluator value:AUC top 10 is -1.0	0.7695489179515695	0.7636250564852555
+17/03/26 23:23:53 INFO BPRRecommender: iter 100 Evaluator value:AUC top 10 is -1.0	0.7688065375675496	0.7636493349354275
+17/03/26 23:23:54 INFO BPRRecommender: iter 101 Evaluator value:AUC top 10 is -1.0	0.7725458898133584	0.7681403597686177
+17/03/26 23:23:55 INFO BPRRecommender: iter 102 Evaluator value:AUC top 10 is -1.0	0.7695489658982915	0.7726554917803551
+17/03/26 23:23:55 INFO BPRRecommender: iter 103 Evaluator value:AUC top 10 is -1.0	0.7718001734537886	0.7711482422277418
+17/03/26 23:23:56 INFO BPRRecommender: iter 104 Evaluator value:AUC top 10 is -1.0	0.7732966988688854	0.7726523692784951
+17/03/26 23:23:57 INFO BPRRecommender: iter 105 Evaluator value:AUC top 10 is -1.0	0.7695365947975397	0.7726573513965936
+17/03/26 23:23:58 INFO BPRRecommender: iter 106 Evaluator value:AUC top 10 is -1.0	0.7695402448383104	0.7749222935367597
+17/03/26 23:23:59 INFO BPRRecommender: iter 107 Evaluator value:AUC top 10 is -1.0	0.7717819712598507	0.7711500421110409
+17/03/26 23:24:00 INFO BPRRecommender: iter 108 Evaluator value:AUC top 10 is -1.0	0.773306523411282	0.7711475018246732
+17/03/26 23:24:00 INFO BPRRecommender: iter 109 Evaluator value:AUC top 10 is -1.0	0.7702986373760815	0.7726616860031471
+17/03/26 23:24:01 INFO BPRRecommender: iter 110 Evaluator value:AUC top 10 is -1.0	0.7635434479171977	0.7666338522164492
+17/03/26 23:24:01 INFO BPRRecommender: iter 111 Evaluator value:AUC top 10 is -1.0	0.764291183626593	0.7658762174876667
+17/03/26 23:24:02 INFO BPRRecommender: iter 112 Evaluator value:AUC top 10 is -1.0	0.7658151417977193	0.7696505970780793
+17/03/26 23:24:03 INFO BPRRecommender: iter 113 Evaluator value:AUC top 10 is -1.0	0.7673234014324098	0.7681384560587562
+17/03/26 23:24:03 INFO BPRRecommender: iter 114 Evaluator value:AUC top 10 is -1.0	0.7688043025559447	0.7681412726704872
+17/03/26 23:24:04 INFO BPRRecommender: iter 115 Evaluator value:AUC top 10 is -1.0	0.76730854445701	0.7658841179448358
+17/03/26 23:24:05 INFO BPRRecommender: iter 116 Evaluator value:AUC top 10 is -1.0	0.7755560360923462	0.7666176821396672
+17/03/26 23:24:06 INFO BPRRecommender: iter 117 Evaluator value:AUC top 10 is -1.0	0.7718306681873218	0.7651109828490619
+17/03/26 23:24:06 INFO BPRRecommender: iter 118 Evaluator value:AUC top 10 is -1.0	0.7672981652179263	0.7651113454722159
+17/03/26 23:24:07 INFO BPRRecommender: iter 119 Evaluator value:AUC top 10 is -1.0	0.7688016982054302	0.7651166869379239
+17/03/26 23:24:08 INFO BPRRecommender: iter 120 Evaluator value:AUC top 10 is -1.0	0.7673206405654377	0.7711464502661652
+17/03/26 23:24:09 INFO BPRRecommender: iter 121 Evaluator value:AUC top 10 is -1.0	0.7680565075434559	0.7703897651302778
+17/03/26 23:24:09 INFO BPRRecommender: iter 122 Evaluator value:AUC top 10 is -1.0	0.7717908570494166	0.7734024079245964
+17/03/26 23:24:10 INFO BPRRecommender: iter 123 Evaluator value:AUC top 10 is -1.0	0.772544928941498	0.7749222341762673
+17/03/26 23:24:11 INFO BPRRecommender: iter 124 Evaluator value:AUC top 10 is -1.0	0.7710294337183254	0.7726579349467513
+17/03/26 23:24:12 INFO BPRRecommender: iter 125 Evaluator value:AUC top 10 is -1.0	0.7680485734679986	0.770397651857628
+17/03/26 23:24:13 INFO BPRRecommender: iter 126 Evaluator value:AUC top 10 is -1.0	0.7717986432573223	0.7696360106325973
+17/03/26 23:24:13 INFO BPRRecommender: iter 127 Evaluator value:AUC top 10 is -1.0	0.7732991928641739	0.7718874925487859
+17/03/26 23:24:14 INFO BPRRecommender: iter 128 Evaluator value:AUC top 10 is -1.0	0.7732934628530167	0.768895153483355
+17/03/26 23:24:15 INFO BPRRecommender: iter 129 Evaluator value:AUC top 10 is -1.0	0.7710579053303	0.7696460440557513
+17/03/26 23:24:16 INFO BPRRecommender: iter 130 Evaluator value:AUC top 10 is -1.0	0.7740580291529644	0.7688884090700833
+17/03/26 23:24:17 INFO BPRRecommender: iter 131 Evaluator value:AUC top 10 is -1.0	0.7763190784880369	0.7651359162391461
+17/03/26 23:24:18 INFO BPRRecommender: iter 132 Evaluator value:AUC top 10 is -1.0	0.7762984490292455	0.7613799082413696
+17/03/26 23:24:18 INFO BPRRecommender: iter 133 Evaluator value:AUC top 10 is -1.0	0.77630984778371	0.762882278264997
+17/03/26 23:24:19 INFO BPRRecommender: iter 134 Evaluator value:AUC top 10 is -1.0	0.7740478190486089	0.765888825689898
+17/03/26 23:24:20 INFO BPRRecommender: iter 135 Evaluator value:AUC top 10 is -1.0	0.7733166693550014	0.7651387719375989
+17/03/26 23:24:21 INFO BPRRecommender: iter 136 Evaluator value:AUC top 10 is -1.0	0.7778159539875117	0.7696394585202019
+17/03/26 23:24:22 INFO BPRRecommender: iter 137 Evaluator value:AUC top 10 is -1.0	0.76954605344921	0.7666234487249011
+17/03/26 23:24:23 INFO BPRRecommender: iter 138 Evaluator value:AUC top 10 is -1.0	0.771787477495612	0.7688947148022358
+17/03/26 23:24:24 INFO BPRRecommender: iter 139 Evaluator value:AUC top 10 is -1.0	0.7717949146916889	0.7689006315574543
+17/03/26 23:24:25 INFO BPRRecommender: iter 140 Evaluator value:AUC top 10 is -1.0	0.7725444708122375	0.7688800458397964
+17/03/26 23:24:25 INFO BPRRecommender: iter 141 Evaluator value:AUC top 10 is -1.0	0.7717869919683753	0.7681462984531123
+17/03/26 23:24:26 INFO BPRRecommender: iter 142 Evaluator value:AUC top 10 is -1.0	0.7680389388417701	0.7718995859246774
+17/03/26 23:24:27 INFO BPRRecommender: iter 143 Evaluator value:AUC top 10 is -1.0	0.7695516873190408	0.7711520065946292
+17/03/26 23:24:28 INFO BPRRecommender: iter 144 Evaluator value:AUC top 10 is -1.0	0.7695510694902762	0.7696670531861174
+17/03/26 23:24:28 INFO BPRRecommender: iter 145 Evaluator value:AUC top 10 is -1.0	0.7725512616394247	0.7689184132646163
+17/03/26 23:24:29 INFO BPRRecommender: iter 146 Evaluator value:AUC top 10 is -1.0	0.7657987812454735	0.7688915975613729
+17/03/26 23:24:29 INFO BPRRecommender: iter 147 Evaluator value:AUC top 10 is -1.0	0.7695579059446911	0.7643975160649852
+17/03/26 23:24:30 INFO BPRRecommender: iter 148 Evaluator value:AUC top 10 is -1.0	0.7748090482123905	0.7711528837501583
+17/03/26 23:24:31 INFO BPRRecommender: iter 149 Evaluator value:AUC top 10 is -1.0	0.7740569904950418	0.76438902777221
+17/03/26 23:24:31 INFO BPRRecommender: iter 150 Evaluator value:AUC top 10 is -1.0	0.7770487573758622	0.7673974066186416
+17/03/26 23:24:32 INFO BPRRecommender: iter 151 Evaluator value:AUC top 10 is -1.0	0.7748021588146097	0.7666557777256093
+17/03/26 23:24:32 INFO BPRRecommender: iter 152 Evaluator value:AUC top 10 is -1.0	0.7755565234074946	0.7643851412489423
+17/03/26 23:24:33 INFO BPRRecommender: iter 153 Evaluator value:AUC top 10 is -1.0	0.7763074667656221	0.764382303836846
+17/03/26 23:24:34 INFO BPRRecommender: iter 154 Evaluator value:AUC top 10 is -1.0	0.7740579451561432	0.7674154513576485
+17/03/26 23:24:35 INFO BPRRecommender: iter 155 Evaluator value:AUC top 10 is -1.0	0.7740578785569429	0.7651616692944968
+17/03/26 23:24:35 INFO BPRRecommender: iter 156 Evaluator value:AUC top 10 is -1.0	0.771063449014769	0.771939810059275
+17/03/26 23:24:36 INFO BPRRecommender: iter 157 Evaluator value:AUC top 10 is -1.0	0.771809913265952	0.7704493780595141
+17/03/26 23:24:37 INFO BPRRecommender: iter 158 Evaluator value:AUC top 10 is -1.0	0.771064273497953	0.7749470825675226
+17/03/26 23:24:37 INFO BPRRecommender: iter 159 Evaluator value:AUC top 10 is -1.0	0.7710498413758781	0.7696805271967733
+17/03/26 23:24:38 INFO BPRRecommender: iter 160 Evaluator value:AUC top 10 is -1.0	0.7710420156387486	0.770428126753007
+17/03/26 23:24:39 INFO BPRRecommender: iter 161 Evaluator value:AUC top 10 is -1.0	0.7755507884929387	0.7696873983746675
+17/03/26 23:24:39 INFO BPRRecommender: iter 162 Evaluator value:AUC top 10 is -1.0	0.7717893331810772	0.7712025301516786
+17/03/26 23:24:40 INFO BPRRecommender: iter 163 Evaluator value:AUC top 10 is -1.0	0.7740483771762939	0.7674212499779647
+17/03/26 23:24:41 INFO BPRRecommender: iter 164 Evaluator value:AUC top 10 is -1.0	0.7702773858807367	0.7726977040032761
+17/03/26 23:24:42 INFO BPRRecommender: iter 165 Evaluator value:AUC top 10 is -1.0	0.7732862767492811	0.7711695064378578
+17/03/26 23:24:42 INFO BPRRecommender: iter 166 Evaluator value:AUC top 10 is -1.0	0.7695627049767968	0.7704282594400487
+17/03/26 23:24:43 INFO BPRRecommender: iter 167 Evaluator value:AUC top 10 is -1.0	0.7695612643618889	0.7696808243409977
+17/03/26 23:24:43 INFO BPRRecommender: iter 168 Evaluator value:AUC top 10 is -1.0	0.7695748731023812	0.7726960536944486
+17/03/26 23:24:44 INFO BPRRecommender: iter 169 Evaluator value:AUC top 10 is -1.0	0.7680533624236592	0.7726853069540681
+17/03/26 23:24:45 INFO BPRRecommender: iter 170 Evaluator value:AUC top 10 is -1.0	0.76956910855129	0.7696457554989232
+17/03/26 23:24:46 INFO BPRRecommender: iter 171 Evaluator value:AUC top 10 is -1.0	0.7643191658455372	0.7696553532700376
+17/03/26 23:24:47 INFO BPRRecommender: iter 172 Evaluator value:AUC top 10 is -1.0	0.7650607668115982	0.768154392635094
+17/03/26 23:24:48 INFO BPRRecommender: iter 173 Evaluator value:AUC top 10 is -1.0	0.7658139849347743	0.7658827973025926
+17/03/26 23:24:49 INFO BPRRecommender: iter 174 Evaluator value:AUC top 10 is -1.0	0.763544377266088	0.7643871848317632
+17/03/26 23:24:49 INFO BPRRecommender: iter 175 Evaluator value:AUC top 10 is -1.0	0.7635414716132989	0.7651505872319031
+17/03/26 23:24:50 INFO BPRRecommender: iter 176 Evaluator value:AUC top 10 is -1.0	0.7680660056573546	0.7696559999547804
+17/03/26 23:24:50 INFO BPRRecommender: iter 177 Evaluator value:AUC top 10 is -1.0	0.7620880186865442	0.7696722650165183
+17/03/26 23:24:51 INFO BPRRecommender: iter 178 Evaluator value:AUC top 10 is -1.0	0.76357934673407	0.77343876369002
+17/03/26 23:24:51 INFO BPRRecommender: iter 179 Evaluator value:AUC top 10 is -1.0	0.7628407028515127	0.7704298748008073
+17/03/26 23:24:52 INFO BPRRecommender: iter 180 Evaluator value:AUC top 10 is -1.0	0.7635889090732099	0.7727022808528092
+17/03/26 23:24:52 INFO BPRRecommender: iter 181 Evaluator value:AUC top 10 is -1.0	0.7635986456930347	0.7689335740715645
+17/03/26 23:24:53 INFO BPRRecommender: iter 182 Evaluator value:AUC top 10 is -1.0	0.759087278093389	0.7704402797926312
+17/03/26 23:24:54 INFO BPRRecommender: iter 183 Evaluator value:AUC top 10 is -1.0	0.764324583360436	0.7651773642050949
+17/03/26 23:24:54 INFO BPRRecommender: iter 184 Evaluator value:AUC top 10 is -1.0	0.7628278150686079	0.7659179018431013
+17/03/26 23:24:55 INFO BPRRecommender: iter 185 Evaluator value:AUC top 10 is -1.0	0.7673165978315636	0.767426421747906
+17/03/26 23:24:56 INFO BPRRecommender: iter 186 Evaluator value:AUC top 10 is -1.0	0.764309035178014	0.76893169506056
+17/03/26 23:24:57 INFO BPRRecommender: iter 187 Evaluator value:AUC top 10 is -1.0	0.7703190101117462	0.7659152768503261
+17/03/26 23:24:58 INFO BPRRecommender: iter 188 Evaluator value:AUC top 10 is -1.0	0.7718192459208161	0.7704468573678352
+17/03/26 23:24:59 INFO BPRRecommender: iter 189 Evaluator value:AUC top 10 is -1.0	0.777084695567313	0.7764690017568238
+17/03/26 23:24:59 INFO BPRRecommender: iter 190 Evaluator value:AUC top 10 is -1.0	0.7718406422214521	0.7727029911515553
+17/03/26 23:25:00 INFO BPRRecommender: iter 191 Evaluator value:AUC top 10 is -1.0	0.769571637937652	0.7711966008909186
+17/03/26 23:25:01 INFO BPRRecommender: iter 192 Evaluator value:AUC top 10 is -1.0	0.7748141391720935	0.7711929826154624

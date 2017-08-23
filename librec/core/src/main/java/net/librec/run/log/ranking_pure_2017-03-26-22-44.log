@@ -1,0 +1,62 @@
+17/03/26 22:44:53 INFO test_all_ranking_pure: ********************************************************************************
+17/03/26 22:44:53 INFO test_all_ranking_pure: Begin
+
+17/03/26 22:44:53 INFO test_all_ranking_pure: 
+rec.iterator.learnrate=0.01
+rec.eval.classes=auc
+rec.bias.regularization=0.1
+rec.iterator.maximum=200
+rec.iteration.learnrate=0.01
+rec.fismrmse.rho=1
+rec.fismrmse.alpha=0.8
+rec.item.regularization=0.1
+rec.recommender.ranking.topn=10
+rec.recommender.class=fismrmse
+rec.recommender.isranking=true
+rec.random.seed=1
+rec.factor.number=10
+rec.learnRate.bolddriver=false
+rec.eval.enable=true
+rec.user.regularization=0.1
+
+17/03/26 22:44:54 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/26 22:44:54 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/26 22:44:54 INFO TextDataConvertor: All dataset files size 6153533
+17/03/26 22:44:54 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/26 22:44:56 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/26 22:44:56 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/26 22:44:56 INFO TextDataModel: Data size of training is 80003
+17/03/26 22:44:56 INFO TextDataModel: Data size of testing is 10001
+17/03/26 22:44:57 INFO FISMrmseRecommender: Job Setup completed.
+17/03/26 22:45:50 INFO FISMrmseRecommender: iter 1 Evaluator value:AUC top 10 is -1.0	0.5859007553356803	0.6050145773277523
+17/03/26 22:46:22 INFO FISMrmseRecommender: iter 2 Evaluator value:AUC top 10 is -1.0	0.6824807482865951	0.687603950113187
+17/03/26 22:46:58 INFO FISMrmseRecommender: iter 3 Evaluator value:AUC top 10 is -1.0	0.7004677812165534	0.7041051467086631
+17/03/26 22:47:31 INFO FISMrmseRecommender: iter 4 Evaluator value:AUC top 10 is -1.0	0.7087178322261753	0.7116446144050985
+17/03/26 22:48:04 INFO FISMrmseRecommender: iter 5 Evaluator value:AUC top 10 is -1.0	0.7117136084103308	0.7093818196412773
+17/03/26 22:48:39 INFO FISMrmseRecommender: iter 6 Evaluator value:AUC top 10 is -1.0	0.7117161345508686	0.7093800636659119
+17/03/26 22:49:19 INFO FISMrmseRecommender: iter 7 Evaluator value:AUC top 10 is -1.0	0.7102099903399054	0.7071192078083243
+17/03/26 22:49:58 INFO FISMrmseRecommender: iter 8 Evaluator value:AUC top 10 is -1.0	0.7124519707812977	0.707109774347093
+17/03/26 22:50:42 INFO FISMrmseRecommender: iter 9 Evaluator value:AUC top 10 is -1.0	0.7124617976641622	0.7093648556448274
+17/03/26 22:51:27 INFO FISMrmseRecommender: iter 10 Evaluator value:AUC top 10 is -1.0	0.7109687562314676	0.7101162092598101
+17/03/26 22:51:59 INFO FISMrmseRecommender: iter 11 Evaluator value:AUC top 10 is -1.0	0.7132078287244467	0.7093633992594064
+17/03/26 22:52:29 INFO FISMrmseRecommender: iter 12 Evaluator value:AUC top 10 is -1.0	0.7146965212018977	0.7101133004387666
+17/03/26 22:53:00 INFO FISMrmseRecommender: iter 13 Evaluator value:AUC top 10 is -1.0	0.7154466985604413	0.7101134431516781
+17/03/26 22:53:33 INFO FISMrmseRecommender: iter 14 Evaluator value:AUC top 10 is -1.0	0.7139505970054628	0.7108666426216042
+17/03/26 22:54:09 INFO FISMrmseRecommender: iter 15 Evaluator value:AUC top 10 is -1.0	0.7162170209607568	0.7131281651558313
+17/03/26 22:54:43 INFO FISMrmseRecommender: iter 16 Evaluator value:AUC top 10 is -1.0	0.7147150945123316	0.713881492909224
+17/03/26 22:55:14 INFO FISMrmseRecommender: iter 17 Evaluator value:AUC top 10 is -1.0	0.7154684302213205	0.7131303559740019
+17/03/26 22:55:49 INFO FISMrmseRecommender: iter 18 Evaluator value:AUC top 10 is -1.0	0.7147506254365542	0.7131302531202306
+17/03/26 22:56:25 INFO FISMrmseRecommender: iter 19 Evaluator value:AUC top 10 is -1.0	0.7147506256581151	0.7131305110945946
+17/03/26 22:57:00 INFO FISMrmseRecommender: iter 20 Evaluator value:AUC top 10 is -1.0	0.7147506256581151	0.7131305110945946
+17/03/26 22:57:34 INFO FISMrmseRecommender: iter 21 Evaluator value:AUC top 10 is -1.0	0.7147504839749943	0.7131299075302902
+17/03/26 22:58:10 INFO FISMrmseRecommender: iter 22 Evaluator value:AUC top 10 is -1.0	0.714748002629194	0.7116227516292417
+17/03/26 22:58:45 INFO FISMrmseRecommender: iter 23 Evaluator value:AUC top 10 is -1.0	0.7147476840079255	0.7116228009653844
+17/03/26 22:59:20 INFO FISMrmseRecommender: iter 24 Evaluator value:AUC top 10 is -1.0	0.7147485124059593	0.7116232261004172
+17/03/26 23:00:04 INFO FISMrmseRecommender: iter 25 Evaluator value:AUC top 10 is -1.0	0.7139981028526965	0.7116230590754261
+17/03/26 23:00:39 INFO FISMrmseRecommender: iter 26 Evaluator value:AUC top 10 is -1.0	0.7147497726334238	0.7116232302452865
+17/03/26 23:01:17 INFO FISMrmseRecommender: iter 27 Evaluator value:AUC top 10 is -1.0	0.7147496788585733	0.7116229353512339
+17/03/26 23:02:02 INFO FISMrmseRecommender: iter 28 Evaluator value:AUC top 10 is -1.0	0.7139996718916711	0.7123765300471768
+17/03/26 23:02:39 INFO FISMrmseRecommender: iter 29 Evaluator value:AUC top 10 is -1.0	0.7139995022561568	0.7123764960022362
+17/03/26 23:03:16 INFO FISMrmseRecommender: iter 30 Evaluator value:AUC top 10 is -1.0	0.7139995022561568	0.7123764960022362
+17/03/26 23:03:59 INFO FISMrmseRecommender: iter 31 Evaluator value:AUC top 10 is -1.0	0.7139995022561568	0.7123764960022362
+17/03/26 23:04:43 INFO FISMrmseRecommender: iter 32 Evaluator value:AUC top 10 is -1.0	0.7139990204780935	0.7123778118109094

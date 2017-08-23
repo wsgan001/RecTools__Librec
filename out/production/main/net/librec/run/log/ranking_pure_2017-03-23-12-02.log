@@ -1,0 +1,26 @@
+17/03/23 12:02:52 INFO test_all_ranking_pure: ********************************************************************************
+17/03/23 12:02:52 INFO test_all_ranking_pure: Begin
+
+17/03/23 12:02:52 INFO test_all_ranking_pure: rec.eval.enable=true
+rec.recommender.class=associationrule
+rec.eval.classes=auc
+rec.recommender.isranking=true
+rec.random.seed=1
+rec.recommender.ranking.topn=10
+
+17/03/23 12:02:52 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/23 12:02:52 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\movielens100k_librec.txt]
+17/03/23 12:02:52 INFO TextDataConvertor: All dataset files size 3029027
+17/03/23 12:02:52 INFO TextDataConvertor: Now loading dataset file movielens100k_librec
+17/03/23 12:02:55 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/23 12:02:55 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/23 12:02:55 INFO TextDataModel: Data size of training is 49651
+17/03/23 12:02:55 INFO TextDataModel: Data size of testing is 6225
+17/03/23 12:02:55 INFO AssociationRuleRecommender: Job Setup completed.
+17/03/23 12:03:18 INFO AssociationRuleRecommender: Job Train completed.
+17/03/23 13:07:35 INFO AssociationRuleRecommender: Job End.
+17/03/23 13:07:35 INFO RecommenderJob: Evaluator info:AUCEvaluator is 0.7345737262090545
+17/03/23 13:07:35 INFO RecommenderJob: Result path is E:/Users/v-fuz/tools/recommender_system/librec_sourcecode/librec/core/src/main/java/net/librec/run/result/movielens/ml-100k-split-associationrule-output/associationrule
+17/03/23 13:07:35 INFO test_all_ranking_pure: End
+
+

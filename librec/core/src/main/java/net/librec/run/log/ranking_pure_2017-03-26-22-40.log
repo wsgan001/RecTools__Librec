@@ -1,0 +1,100 @@
+17/03/26 22:40:22 INFO test_all_ranking_pure: ********************************************************************************
+17/03/26 22:40:22 INFO test_all_ranking_pure: Begin
+
+17/03/26 22:40:22 INFO test_all_ranking_pure: 
+rec.iterator.learnrate=0.01
+rec.eval.classes=auc
+rec.learnrate.decay=1.0
+rec.iterator.maximum=200
+rec.iterator.learnrate.maximum=0.01
+rec.gpbr.rho=1.5
+rec.gpbr.gsize=2
+rec.item.regularization=0.1
+rec.recommender.ranking.topn=10
+rec.recommender.class=gbpr
+rec.recommender.isranking=true
+rec.random.seed=1
+rec.learnrate.bolddriver=false
+rec.factor.number=10
+rec.learnRate.bolddriver=false
+rec.eval.enable=true
+rec.user.regularization=0.1
+
+17/03/26 22:40:22 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/26 22:40:22 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/26 22:40:22 INFO TextDataConvertor: All dataset files size 6153533
+17/03/26 22:40:22 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/26 22:40:25 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/26 22:40:25 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/26 22:40:25 INFO TextDataModel: Data size of training is 80003
+17/03/26 22:40:25 INFO TextDataModel: Data size of testing is 10001
+17/03/26 22:40:25 INFO GBPRRecommender: Job Setup completed.
+17/03/26 22:40:27 INFO GBPRRecommender: iter 1 Evaluator value:AUC top 10 is -1.0	0.7004517400511421	0.7214275698860165
+17/03/26 22:40:29 INFO GBPRRecommender: iter 2 Evaluator value:AUC top 10 is -1.0	0.7139804408861327	0.7214777959729151
+17/03/26 22:40:31 INFO GBPRRecommender: iter 3 Evaluator value:AUC top 10 is -1.0	0.716230667870822	0.7199141134806595
+17/03/26 22:40:32 INFO GBPRRecommender: iter 4 Evaluator value:AUC top 10 is -1.0	0.7192313409280504	0.7214332247920464
+17/03/26 22:40:33 INFO GBPRRecommender: iter 5 Evaluator value:AUC top 10 is -1.0	0.7162238714224793	0.7191776716974817
+17/03/26 22:40:35 INFO GBPRRecommender: iter 6 Evaluator value:AUC top 10 is -1.0	0.7207441745930964	0.7161598939819007
+17/03/26 22:40:37 INFO GBPRRecommender: iter 7 Evaluator value:AUC top 10 is -1.0	0.7207406157716668	0.7123978432091422
+17/03/26 22:40:38 INFO GBPRRecommender: iter 8 Evaluator value:AUC top 10 is -1.0	0.7185005827225098	0.7116452550286334
+17/03/26 22:40:39 INFO GBPRRecommender: iter 9 Evaluator value:AUC top 10 is -1.0	0.7200045817014301	0.7108915762033994
+17/03/26 22:40:40 INFO GBPRRecommender: iter 10 Evaluator value:AUC top 10 is -1.0	0.720012819847938	0.7116378317330044
+17/03/26 22:40:42 INFO GBPRRecommender: iter 11 Evaluator value:AUC top 10 is -1.0	0.7207581991136723	0.7108865334807105
+17/03/26 22:40:42 INFO GBPRRecommender: iter 12 Evaluator value:AUC top 10 is -1.0	0.716998813650715	0.7139008672188051
+17/03/26 22:40:44 INFO GBPRRecommender: iter 13 Evaluator value:AUC top 10 is -1.0	0.7230015576099175	0.7101321927471081
+17/03/26 22:40:47 INFO GBPRRecommender: iter 14 Evaluator value:AUC top 10 is -1.0	0.7192439311349299	0.7123914764591661
+17/03/26 22:40:48 INFO GBPRRecommender: iter 15 Evaluator value:AUC top 10 is -1.0	0.7177470321203007	0.711640121311615
+17/03/26 22:40:49 INFO GBPRRecommender: iter 16 Evaluator value:AUC top 10 is -1.0	0.7184980801212278	0.7131362254569373
+17/03/26 22:40:50 INFO GBPRRecommender: iter 17 Evaluator value:AUC top 10 is -1.0	0.7147545130612191	0.7146368864375926
+17/03/26 22:40:50 INFO GBPRRecommender: iter 18 Evaluator value:AUC top 10 is -1.0	0.719295323890392	0.7138916516534889
+17/03/26 22:40:51 INFO GBPRRecommender: iter 19 Evaluator value:AUC top 10 is -1.0	0.7140184997134045	0.716898340305937
+17/03/26 22:40:52 INFO GBPRRecommender: iter 20 Evaluator value:AUC top 10 is -1.0	0.7147987387899722	0.7138856353639151
+17/03/26 22:40:53 INFO GBPRRecommender: iter 21 Evaluator value:AUC top 10 is -1.0	0.7215094119794823	0.7123909875226486
+17/03/26 22:40:54 INFO GBPRRecommender: iter 22 Evaluator value:AUC top 10 is -1.0	0.717749427653613	0.7131459945606798
+17/03/26 22:40:55 INFO GBPRRecommender: iter 23 Evaluator value:AUC top 10 is -1.0	0.7192538768058193	0.7131526993890386
+17/03/26 22:40:55 INFO GBPRRecommender: iter 24 Evaluator value:AUC top 10 is -1.0	0.7207559125300895	0.7108879696051575
+17/03/26 22:40:56 INFO GBPRRecommender: iter 25 Evaluator value:AUC top 10 is -1.0	0.7192592414883041	0.7108863789299418
+17/03/26 22:40:57 INFO GBPRRecommender: iter 26 Evaluator value:AUC top 10 is -1.0	0.7215109118118455	0.7116447995239426
+17/03/26 22:40:59 INFO GBPRRecommender: iter 27 Evaluator value:AUC top 10 is -1.0	0.7230153542818004	0.7101277624761158
+17/03/26 22:41:01 INFO GBPRRecommender: iter 28 Evaluator value:AUC top 10 is -1.0	0.7230117445060905	0.7093845241905619
+17/03/26 22:41:02 INFO GBPRRecommender: iter 29 Evaluator value:AUC top 10 is -1.0	0.7207502726481173	0.708630256561835
+17/03/26 22:41:04 INFO GBPRRecommender: iter 30 Evaluator value:AUC top 10 is -1.0	0.7237620220731392	0.7139096448648213
+17/03/26 22:41:05 INFO GBPRRecommender: iter 31 Evaluator value:AUC top 10 is -1.0	0.7237594636627442	0.7139102766122121
+17/03/26 22:41:06 INFO GBPRRecommender: iter 32 Evaluator value:AUC top 10 is -1.0	0.7200018544171036	0.707876859720334
+17/03/26 22:41:07 INFO GBPRRecommender: iter 33 Evaluator value:AUC top 10 is -1.0	0.7222561056305449	0.7093788052370907
+17/03/26 22:41:08 INFO GBPRRecommender: iter 34 Evaluator value:AUC top 10 is -1.0	0.7237610444840694	0.7071211304197006
+17/03/26 22:41:09 INFO GBPRRecommender: iter 35 Evaluator value:AUC top 10 is -1.0	0.7215065889099469	0.7071283614538172
+17/03/26 22:41:10 INFO GBPRRecommender: iter 36 Evaluator value:AUC top 10 is -1.0	0.7237487514526391	0.7101333439671803
+17/03/26 22:41:11 INFO GBPRRecommender: iter 37 Evaluator value:AUC top 10 is -1.0	0.7245129419650115	0.7131492942397716
+17/03/26 22:41:12 INFO GBPRRecommender: iter 38 Evaluator value:AUC top 10 is -1.0	0.7222471486822777	0.7131501153145537
+17/03/26 22:41:13 INFO GBPRRecommender: iter 39 Evaluator value:AUC top 10 is -1.0	0.7207490678875125	0.7131392664823367
+17/03/26 22:41:14 INFO GBPRRecommender: iter 40 Evaluator value:AUC top 10 is -1.0	0.7207496734769332	0.7078800107542781
+17/03/26 22:41:15 INFO GBPRRecommender: iter 41 Evaluator value:AUC top 10 is -1.0	0.7230020180173803	0.7131491232824367
+17/03/26 22:41:15 INFO GBPRRecommender: iter 42 Evaluator value:AUC top 10 is -1.0	0.7229978943826119	0.7123927838466476
+17/03/26 22:41:16 INFO GBPRRecommender: iter 43 Evaluator value:AUC top 10 is -1.0	0.7177527530365952	0.7116342315244127
+17/03/26 22:41:17 INFO GBPRRecommender: iter 44 Evaluator value:AUC top 10 is -1.0	0.7177503006998315	0.7131383551263244
+17/03/26 22:41:18 INFO GBPRRecommender: iter 45 Evaluator value:AUC top 10 is -1.0	0.7169990227780032	0.711637813473739
+17/03/26 22:41:19 INFO GBPRRecommender: iter 46 Evaluator value:AUC top 10 is -1.0	0.7184957726939143	0.7101290265274981
+17/03/26 22:41:21 INFO GBPRRecommender: iter 47 Evaluator value:AUC top 10 is -1.0	0.7192392879159096	0.7108814798148805
+17/03/26 22:41:21 INFO GBPRRecommender: iter 48 Evaluator value:AUC top 10 is -1.0	0.7177558281184919	0.7131381855258283
+17/03/26 22:41:22 INFO GBPRRecommender: iter 49 Evaluator value:AUC top 10 is -1.0	0.7177582940952135	0.7131367617093666
+17/03/26 22:41:23 INFO GBPRRecommender: iter 50 Evaluator value:AUC top 10 is -1.0	0.7215068616896573	0.7116356007672769
+17/03/26 22:41:24 INFO GBPRRecommender: iter 51 Evaluator value:AUC top 10 is -1.0	0.7207574013718309	0.7101298166640692
+17/03/26 22:41:25 INFO GBPRRecommender: iter 52 Evaluator value:AUC top 10 is -1.0	0.7214943398003021	0.7138891950487176
+17/03/26 22:41:26 INFO GBPRRecommender: iter 53 Evaluator value:AUC top 10 is -1.0	0.7230184452125429	0.7116348905583637
+17/03/26 22:41:27 INFO GBPRRecommender: iter 54 Evaluator value:AUC top 10 is -1.0	0.7185043126091958	0.7146477423386177
+17/03/26 22:41:29 INFO GBPRRecommender: iter 55 Evaluator value:AUC top 10 is -1.0	0.7207415230664339	0.7108832536269174
+17/03/26 22:41:30 INFO GBPRRecommender: iter 56 Evaluator value:AUC top 10 is -1.0	0.7199982455615964	0.713897911939948
+17/03/26 22:41:31 INFO GBPRRecommender: iter 57 Evaluator value:AUC top 10 is -1.0	0.7230095251800577	0.7146517806620187
+17/03/26 22:41:32 INFO GBPRRecommender: iter 58 Evaluator value:AUC top 10 is -1.0	0.7230062348070202	0.7146462253119504
+17/03/26 22:41:33 INFO GBPRRecommender: iter 59 Evaluator value:AUC top 10 is -1.0	0.7207780515672736	0.7146438605629764
+17/03/26 22:41:34 INFO GBPRRecommender: iter 60 Evaluator value:AUC top 10 is -1.0	0.7230143020093803	0.7138915968265601
+17/03/26 22:41:34 INFO GBPRRecommender: iter 61 Evaluator value:AUC top 10 is -1.0	0.7215107499517871	0.7131498065971954
+17/03/26 22:41:35 INFO GBPRRecommender: iter 62 Evaluator value:AUC top 10 is -1.0	0.717758186178523	0.7138915286197336
+17/03/26 22:41:35 INFO GBPRRecommender: iter 63 Evaluator value:AUC top 10 is -1.0	0.7192475415600884	0.7146380672779911
+17/03/26 22:41:37 INFO GBPRRecommender: iter 64 Evaluator value:AUC top 10 is -1.0	0.7207662591307344	0.7153915616363026
+17/03/26 22:41:37 INFO GBPRRecommender: iter 65 Evaluator value:AUC top 10 is -1.0	0.7237538642143551	0.7146555614338681
+17/03/26 22:41:38 INFO GBPRRecommender: iter 66 Evaluator value:AUC top 10 is -1.0	0.7229994747289936	0.7169041745039938
+17/03/26 22:41:39 INFO GBPRRecommender: iter 67 Evaluator value:AUC top 10 is -1.0	0.7222517597898613	0.7214231017797856
+17/03/26 22:41:40 INFO GBPRRecommender: iter 68 Evaluator value:AUC top 10 is -1.0	0.7200084533075654	0.7146480823928223
+17/03/26 22:41:41 INFO GBPRRecommender: iter 69 Evaluator value:AUC top 10 is -1.0	0.7177440835866303	0.7131422915803461

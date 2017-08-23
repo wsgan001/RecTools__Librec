@@ -1,0 +1,156 @@
+17/04/06 17:22:01 INFO test_all_ranking_pure: ********************************************************************************
+17/04/06 17:22:01 INFO test_all_ranking_pure: Begin
+
+17/04/06 17:22:01 INFO test_all_ranking_pure: 
+rec.iterator.learnrate=0.01
+rec.eval.classes=precision
+rec.iterator.maximum=100
+rec.learningrate.decay=1.0
+rec.iterator.learnrate.maximum=0.01
+rec.learnRate.decay=1.0
+rec.item.regularization=0.00
+rec.recommender.ranking.topn=10
+rec.recommender.class=bpr
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.learningrate.bolddriver=false
+rec.factor.number=10
+rec.learnRate.bolddriver=false
+rec.eval.enable=true
+rec.user.regularization=0.00
+
+17/04/06 17:22:13 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/04/06 17:22:13 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/04/06 17:22:13 INFO TextDataConvertor: All dataset files size 3405768
+17/04/06 17:22:13 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/04/06 17:22:42 INFO test_all_ranking_pure: ********************************************************************************
+17/04/06 17:22:42 INFO test_all_ranking_pure: Begin
+
+17/04/06 17:22:42 INFO test_all_ranking_pure: 
+rec.iterator.learnrate=0.01
+rec.eval.classes=precision
+rec.iterator.maximum=100
+rec.learningrate.decay=1.0
+rec.iterator.learnrate.maximum=0.01
+rec.learnRate.decay=1.0
+rec.item.regularization=0.00
+rec.recommender.ranking.topn=10
+rec.recommender.class=bpr
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.learningrate.bolddriver=false
+rec.factor.number=10
+rec.learnRate.bolddriver=false
+rec.eval.enable=true
+rec.user.regularization=0.00
+
+17/04/06 17:22:42 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/04/06 17:22:42 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/04/06 17:22:42 INFO TextDataConvertor: All dataset files size 3405768
+17/04/06 17:22:42 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/04/06 17:22:44 INFO TextDataModel: Transform data to Convertor successfully!
+17/04/06 17:22:44 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/04/06 17:22:44 INFO TextDataModel: Data size of training is 80003
+17/04/06 17:22:44 INFO TextDataModel: Data size of testing is 10001
+17/04/06 17:22:53 INFO BPRRecommender: Job Setup completed.
+17/04/06 17:29:46 INFO BPRRecommender: iter 1 Evaluator value:PRECISION top 10 is -1.0	0.0016616314199395768	0.00196969696969697
+17/04/06 17:29:47 INFO BPRRecommender: iter 2 Evaluator value:PRECISION top 10 is -1.0	0.001963746223564955	0.0021212121212121214
+17/04/06 17:29:47 INFO BPRRecommender: iter 3 Evaluator value:PRECISION top 10 is -1.0	0.003927492447129911	0.0046969696969696995
+17/04/06 17:29:48 INFO BPRRecommender: iter 4 Evaluator value:PRECISION top 10 is -1.0	0.009818731117824771	0.012272727272727262
+17/04/06 17:29:49 INFO BPRRecommender: iter 5 Evaluator value:PRECISION top 10 is -1.0	0.027341389728096657	0.029696969696969694
+17/04/06 17:29:50 INFO BPRRecommender: iter 6 Evaluator value:PRECISION top 10 is -1.0	0.049093655589123944	0.04909090909090918
+17/04/06 17:29:50 INFO BPRRecommender: iter 7 Evaluator value:PRECISION top 10 is -1.0	0.06193353474320262	0.06378787878787902
+17/04/06 17:29:51 INFO BPRRecommender: iter 8 Evaluator value:PRECISION top 10 is -1.0	0.06465256797583102	0.06863636363636393
+17/04/06 17:29:52 INFO BPRRecommender: iter 9 Evaluator value:PRECISION top 10 is -1.0	0.0684290030211483	0.07136363636363666
+17/04/06 17:29:53 INFO BPRRecommender: iter 10 Evaluator value:PRECISION top 10 is -1.0	0.07009063444108786	0.07515151515151543
+17/04/06 17:29:54 INFO BPRRecommender: iter 11 Evaluator value:PRECISION top 10 is -1.0	0.07265861027190357	0.07757575757575791
+17/04/06 17:29:55 INFO BPRRecommender: iter 12 Evaluator value:PRECISION top 10 is -1.0	0.0738670694864051	0.0789393939393943
+17/04/06 17:29:56 INFO BPRRecommender: iter 13 Evaluator value:PRECISION top 10 is -1.0	0.07537764350453201	0.08030303030303067
+17/04/06 17:29:57 INFO BPRRecommender: iter 14 Evaluator value:PRECISION top 10 is -1.0	0.07522658610271932	0.08166666666666705
+17/04/06 17:29:58 INFO BPRRecommender: iter 15 Evaluator value:PRECISION top 10 is -1.0	0.07779456193353507	0.08333333333333373
+17/04/06 17:29:58 INFO BPRRecommender: iter 16 Evaluator value:PRECISION top 10 is -1.0	0.0774924471299097	0.08393939393939434
+17/04/06 17:29:59 INFO BPRRecommender: iter 17 Evaluator value:PRECISION top 10 is -1.0	0.0788519637462239	0.0846969696969701
+17/04/06 17:29:59 INFO BPRRecommender: iter 18 Evaluator value:PRECISION top 10 is -1.0	0.08036253776435079	0.08363636363636408
+17/04/06 17:30:01 INFO BPRRecommender: iter 19 Evaluator value:PRECISION top 10 is -1.0	0.08051359516616349	0.0828787878787883
+17/04/06 17:30:02 INFO BPRRecommender: iter 20 Evaluator value:PRECISION top 10 is -1.0	0.08126888217522692	0.08393939393939434
+17/04/06 17:30:02 INFO BPRRecommender: iter 21 Evaluator value:PRECISION top 10 is -1.0	0.0799093655589127	0.08424242424242466
+17/04/06 17:30:03 INFO BPRRecommender: iter 22 Evaluator value:PRECISION top 10 is -1.0	0.07990936555891273	0.08454545454545494
+17/04/06 17:30:04 INFO BPRRecommender: iter 23 Evaluator value:PRECISION top 10 is -1.0	0.08141993957703962	0.08545454545454587
+17/04/06 17:30:04 INFO BPRRecommender: iter 24 Evaluator value:PRECISION top 10 is -1.0	0.08262839879154114	0.08818181818181861
+17/04/06 17:30:05 INFO BPRRecommender: iter 25 Evaluator value:PRECISION top 10 is -1.0	0.08247734138972844	0.08818181818181862
+17/04/06 17:30:06 INFO BPRRecommender: iter 26 Evaluator value:PRECISION top 10 is -1.0	0.0850453172205442	0.08863636363636405
+17/04/06 17:30:07 INFO BPRRecommender: iter 27 Evaluator value:PRECISION top 10 is -1.0	0.08534743202416957	0.09030303030303075
+17/04/06 17:30:08 INFO BPRRecommender: iter 28 Evaluator value:PRECISION top 10 is -1.0	0.08459214501510613	0.08878787878787925
+17/04/06 17:30:09 INFO BPRRecommender: iter 29 Evaluator value:PRECISION top 10 is -1.0	0.0864048338368584	0.09030303030303075
+17/04/06 17:30:10 INFO BPRRecommender: iter 30 Evaluator value:PRECISION top 10 is -1.0	0.08580060422960767	0.09000000000000045
+17/04/06 17:30:10 INFO BPRRecommender: iter 31 Evaluator value:PRECISION top 10 is -1.0	0.08761329305135994	0.09106060606060651
+17/04/06 17:30:11 INFO BPRRecommender: iter 32 Evaluator value:PRECISION top 10 is -1.0	0.08836858006042338	0.09242424242424288
+17/04/06 17:30:12 INFO BPRRecommender: iter 33 Evaluator value:PRECISION top 10 is -1.0	0.08776435045317264	0.091515151515152
+17/04/06 17:30:13 INFO BPRRecommender: iter 34 Evaluator value:PRECISION top 10 is -1.0	0.08897280966767415	0.09242424242424285
+17/04/06 17:30:13 INFO BPRRecommender: iter 35 Evaluator value:PRECISION top 10 is -1.0	0.08731117824773456	0.09257575757575799
+17/04/06 17:30:14 INFO BPRRecommender: iter 36 Evaluator value:PRECISION top 10 is -1.0	0.08791540785498532	0.09136363636363679
+17/04/06 17:30:15 INFO BPRRecommender: iter 37 Evaluator value:PRECISION top 10 is -1.0	0.09138972809667716	0.09575757575757621
+17/04/06 17:30:16 INFO BPRRecommender: iter 38 Evaluator value:PRECISION top 10 is -1.0	0.09123867069486447	0.09590909090909133
+17/04/06 17:30:17 INFO BPRRecommender: iter 39 Evaluator value:PRECISION top 10 is -1.0	0.09123867069486444	0.09439393939393982
+17/04/06 17:30:18 INFO BPRRecommender: iter 40 Evaluator value:PRECISION top 10 is -1.0	0.09199395770392789	0.09575757575757618
+17/04/06 17:30:19 INFO BPRRecommender: iter 41 Evaluator value:PRECISION top 10 is -1.0	0.09259818731117864	0.09318181818181857
+17/04/06 17:30:20 INFO BPRRecommender: iter 42 Evaluator value:PRECISION top 10 is -1.0	0.09471299093655629	0.09651515151515193
+17/04/06 17:30:21 INFO BPRRecommender: iter 43 Evaluator value:PRECISION top 10 is -1.0	0.09456193353474364	0.0969696969696974
+17/04/06 17:30:22 INFO BPRRecommender: iter 44 Evaluator value:PRECISION top 10 is -1.0	0.09622356495468322	0.09651515151515189
+17/04/06 17:30:23 INFO BPRRecommender: iter 45 Evaluator value:PRECISION top 10 is -1.0	0.0965256797583086	0.09818181818181848
+17/04/06 17:30:23 INFO BPRRecommender: iter 46 Evaluator value:PRECISION top 10 is -1.0	0.09592145015105782	0.09787878787878822
+17/04/06 17:30:24 INFO BPRRecommender: iter 47 Evaluator value:PRECISION top 10 is -1.0	0.09652567975830857	0.09696969696969736
+17/04/06 17:30:24 INFO BPRRecommender: iter 48 Evaluator value:PRECISION top 10 is -1.0	0.0983383685800608	0.09757575757575793
+17/04/06 17:30:25 INFO BPRRecommender: iter 49 Evaluator value:PRECISION top 10 is -1.0	0.09848942598187348	0.09924242424242455
+17/04/06 17:30:26 INFO BPRRecommender: iter 50 Evaluator value:PRECISION top 10 is -1.0	0.09879154078549886	0.09909090909090942
+17/04/06 17:30:27 INFO BPRRecommender: iter 51 Evaluator value:PRECISION top 10 is -1.0	0.09939577039274958	0.09969696969696999
+17/04/06 17:30:28 INFO BPRRecommender: iter 52 Evaluator value:PRECISION top 10 is -1.0	0.10075528700906379	0.10090909090909118
+17/04/06 17:30:28 INFO BPRRecommender: iter 53 Evaluator value:PRECISION top 10 is -1.0	0.10090634441087645	0.1000000000000003
+17/04/06 17:30:29 INFO BPRRecommender: iter 54 Evaluator value:PRECISION top 10 is -1.0	0.09984894259818765	0.10075757575757606
+17/04/06 17:30:30 INFO BPRRecommender: iter 55 Evaluator value:PRECISION top 10 is -1.0	0.10090634441087643	0.10166666666666696
+17/04/06 17:30:31 INFO BPRRecommender: iter 56 Evaluator value:PRECISION top 10 is -1.0	0.10181268882175251	0.10227272727272751
+17/04/06 17:30:31 INFO BPRRecommender: iter 57 Evaluator value:PRECISION top 10 is -1.0	0.10000000000000028	0.10242424242424267
+17/04/06 17:30:32 INFO BPRRecommender: iter 58 Evaluator value:PRECISION top 10 is -1.0	0.10090634441087637	0.10393939393939415
+17/04/06 17:30:33 INFO BPRRecommender: iter 59 Evaluator value:PRECISION top 10 is -1.0	0.1012084592145018	0.10242424242424267
+17/04/06 17:30:34 INFO BPRRecommender: iter 60 Evaluator value:PRECISION top 10 is -1.0	0.1031722054380667	0.10333333333333353
+17/04/06 17:30:35 INFO BPRRecommender: iter 61 Evaluator value:PRECISION top 10 is -1.0	0.10302114803625403	0.10424242424242441
+17/04/06 17:30:36 INFO BPRRecommender: iter 62 Evaluator value:PRECISION top 10 is -1.0	0.1036253776435048	0.1043939393939396
+17/04/06 17:30:36 INFO BPRRecommender: iter 63 Evaluator value:PRECISION top 10 is -1.0	0.10271903323262865	0.10363636363636386
+17/04/06 17:30:38 INFO BPRRecommender: iter 64 Evaluator value:PRECISION top 10 is -1.0	0.1040785498489428	0.10424242424242439
+17/04/06 17:30:39 INFO BPRRecommender: iter 65 Evaluator value:PRECISION top 10 is -1.0	0.10362537764350475	0.1046969696969699
+17/04/06 17:30:39 INFO BPRRecommender: iter 66 Evaluator value:PRECISION top 10 is -1.0	0.10181268882175253	0.10484848484848501
+17/04/06 17:30:40 INFO BPRRecommender: iter 67 Evaluator value:PRECISION top 10 is -1.0	0.10211480362537789	0.10560606060606084
+17/04/06 17:30:41 INFO BPRRecommender: iter 68 Evaluator value:PRECISION top 10 is -1.0	0.1033232628398794	0.10454545454545473
+17/04/06 17:30:42 INFO BPRRecommender: iter 69 Evaluator value:PRECISION top 10 is -1.0	0.10468277945619359	0.10484848484848502
+17/04/06 17:30:42 INFO BPRRecommender: iter 70 Evaluator value:PRECISION top 10 is -1.0	0.10362537764350474	0.1043939393939396
+17/04/06 17:30:43 INFO BPRRecommender: iter 71 Evaluator value:PRECISION top 10 is -1.0	0.10664652567975845	0.10590909090909105
+17/04/06 17:30:44 INFO BPRRecommender: iter 72 Evaluator value:PRECISION top 10 is -1.0	0.10574018126888236	0.10590909090909113
+17/04/06 17:30:45 INFO BPRRecommender: iter 73 Evaluator value:PRECISION top 10 is -1.0	0.10558912386706965	0.10500000000000026
+17/04/06 17:30:46 INFO BPRRecommender: iter 74 Evaluator value:PRECISION top 10 is -1.0	0.10422960725075546	0.10424242424242447
+17/04/06 17:30:47 INFO BPRRecommender: iter 75 Evaluator value:PRECISION top 10 is -1.0	0.10513595166163163	0.10318181818181846
+17/04/06 17:30:48 INFO BPRRecommender: iter 76 Evaluator value:PRECISION top 10 is -1.0	0.10574018126888232	0.10318181818181846
+17/04/06 17:30:49 INFO BPRRecommender: iter 77 Evaluator value:PRECISION top 10 is -1.0	0.10468277945619354	0.10303030303030329
+17/04/06 17:30:50 INFO BPRRecommender: iter 78 Evaluator value:PRECISION top 10 is -1.0	0.10377643504531742	0.10424242424242443
+17/04/06 17:30:51 INFO BPRRecommender: iter 79 Evaluator value:PRECISION top 10 is -1.0	0.10317220543806666	0.10409090909090933
+17/04/06 17:30:52 INFO BPRRecommender: iter 80 Evaluator value:PRECISION top 10 is -1.0	0.10287009063444133	0.10530303030303048
+17/04/06 17:30:52 INFO BPRRecommender: iter 81 Evaluator value:PRECISION top 10 is -1.0	0.10377643504531742	0.10575757575757586
+17/04/06 17:30:53 INFO BPRRecommender: iter 82 Evaluator value:PRECISION top 10 is -1.0	0.10422960725075546	0.10484848484848505
+17/04/06 17:30:53 INFO BPRRecommender: iter 83 Evaluator value:PRECISION top 10 is -1.0	0.10287009063444127	0.1080303030303032
+17/04/06 17:30:54 INFO BPRRecommender: iter 84 Evaluator value:PRECISION top 10 is -1.0	0.10407854984894276	0.10893939393939407
+17/04/06 17:30:55 INFO BPRRecommender: iter 85 Evaluator value:PRECISION top 10 is -1.0	0.10558912386706965	0.10909090909090922
+17/04/06 17:30:56 INFO BPRRecommender: iter 86 Evaluator value:PRECISION top 10 is -1.0	0.1042296072507555	0.10984848484848497
+17/04/06 17:30:57 INFO BPRRecommender: iter 87 Evaluator value:PRECISION top 10 is -1.0	0.10438066465256814	0.1093939393939395
+17/04/06 17:30:57 INFO BPRRecommender: iter 88 Evaluator value:PRECISION top 10 is -1.0	0.10422960725075543	0.10909090909090918
+17/04/06 17:30:58 INFO BPRRecommender: iter 89 Evaluator value:PRECISION top 10 is -1.0	0.10468277945619354	0.10909090909090918
+17/04/06 17:30:59 INFO BPRRecommender: iter 90 Evaluator value:PRECISION top 10 is -1.0	0.10407854984894283	0.10863636363636375
+17/04/06 17:31:00 INFO BPRRecommender: iter 91 Evaluator value:PRECISION top 10 is -1.0	0.1039274924471301	0.10833333333333339
+17/04/06 17:31:01 INFO BPRRecommender: iter 92 Evaluator value:PRECISION top 10 is -1.0	0.10347432024169206	0.10878787878787889
+17/04/06 17:31:02 INFO BPRRecommender: iter 93 Evaluator value:PRECISION top 10 is -1.0	0.10392749244713008	0.10939393939393942
+17/04/06 17:31:03 INFO BPRRecommender: iter 94 Evaluator value:PRECISION top 10 is -1.0	0.10725075528700921	0.10924242424242439
+17/04/06 17:31:04 INFO BPRRecommender: iter 95 Evaluator value:PRECISION top 10 is -1.0	0.10574018126888232	0.10803030303030309
+17/04/06 17:31:05 INFO BPRRecommender: iter 96 Evaluator value:PRECISION top 10 is -1.0	0.10407854984894283	0.10818181818181825
+17/04/06 17:31:06 INFO BPRRecommender: iter 97 Evaluator value:PRECISION top 10 is -1.0	0.10438066465256816	0.10818181818181821
+17/04/06 17:31:06 INFO BPRRecommender: iter 98 Evaluator value:PRECISION top 10 is -1.0	0.10543806646525697	0.10863636363636375
+17/04/06 17:31:07 INFO BPRRecommender: iter 99 Evaluator value:PRECISION top 10 is -1.0	0.10468277945619356	0.10803030303030312
+17/04/06 17:31:08 INFO BPRRecommender: iter 100 Evaluator value:PRECISION top 10 is -1.0	0.10649546827794577	0.10621212121212138
+17/04/06 17:31:08 INFO BPRRecommender: Job Train completed.

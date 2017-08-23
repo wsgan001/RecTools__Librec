@@ -1,0 +1,74 @@
+17/03/24 23:04:18 INFO test_all_ranking_pure: ********************************************************************************
+17/03/24 23:04:18 INFO test_all_ranking_pure: Begin
+
+17/03/24 23:04:18 INFO test_all_ranking_pure: rec.iterator.learnrate=0.01
+rec.eval.classes=auc
+rec.iterator.maximum=100
+rec.item.regularization=0.1
+rec.recommender.ranking.topn=10
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.recommender.class=wrmf
+rec.wrmf.weight.coefficient=4
+rec.factor.number=100
+rec.eval.enable=true
+rec.user.regularization=0.1
+
+17/03/24 23:04:18 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/24 23:04:18 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\backup\movielens100k_librec.txt, E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/24 23:04:18 INFO TextDataConvertor: All dataset files size 9182055
+17/03/24 23:04:18 INFO TextDataConvertor: Now loading dataset file movielens100k_librec
+17/03/24 23:04:20 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/24 23:04:21 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/24 23:04:21 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/24 23:04:21 INFO TextDataModel: Data size of training is 79130
+17/03/24 23:04:21 INFO TextDataModel: Data size of testing is 9888
+17/03/24 23:04:22 INFO WRMFRecommender: Job Setup completed.
+17/03/24 23:04:57 INFO WRMFRecommender: iter 1 Evaluator value:AUC top 10 is -1.0	0.7123235334428302	0.7054803158478579
+17/03/24 23:05:29 INFO WRMFRecommender: iter 2 Evaluator value:AUC top 10 is -1.0	0.7833127357369604	0.7726811274803891
+17/03/24 23:06:01 INFO WRMFRecommender: iter 3 Evaluator value:AUC top 10 is -1.0	0.7856481148411995	0.7933101858126742
+17/03/24 23:06:33 INFO WRMFRecommender: iter 4 Evaluator value:AUC top 10 is -1.0	0.7956321386509341	0.7918247767285936
+17/03/24 23:07:06 INFO WRMFRecommender: iter 5 Evaluator value:AUC top 10 is -1.0	0.7994568679566507	0.7941089944562141
+17/03/24 23:07:39 INFO WRMFRecommender: iter 6 Evaluator value:AUC top 10 is -1.0	0.794881371032676	0.7979111274182052
+17/03/24 23:08:13 INFO WRMFRecommender: iter 7 Evaluator value:AUC top 10 is -1.0	0.7994569170070888	0.801694677800035
+17/03/24 23:08:48 INFO WRMFRecommender: iter 8 Evaluator value:AUC top 10 is -1.0	0.797184206256069	0.7948241433355602
+17/03/24 23:09:25 INFO WRMFRecommender: iter 9 Evaluator value:AUC top 10 is -1.0	0.7910912571396054	0.7933147945581858
+17/03/24 23:10:02 INFO WRMFRecommender: iter 10 Evaluator value:AUC top 10 is -1.0	0.792607359892769	0.7948478898295742
+17/03/24 23:10:39 INFO WRMFRecommender: iter 11 Evaluator value:AUC top 10 is -1.0	0.7933882865878035	0.7986257915587384
+17/03/24 23:11:14 INFO WRMFRecommender: iter 12 Evaluator value:AUC top 10 is -1.0	0.7918423325113919	0.7940510201191497
+17/03/24 23:11:51 INFO WRMFRecommender: iter 13 Evaluator value:AUC top 10 is -1.0	0.7941134625894324	0.7925417545763559
+17/03/24 23:12:26 INFO WRMFRecommender: iter 14 Evaluator value:AUC top 10 is -1.0	0.7964012303605387	0.7948073929840301
+17/03/24 23:13:01 INFO WRMFRecommender: iter 15 Evaluator value:AUC top 10 is -1.0	0.794886468387002	0.7932886670471334
+17/03/24 23:13:39 INFO WRMFRecommender: iter 16 Evaluator value:AUC top 10 is -1.0	0.7941185311787481	0.7940481678088356
+17/03/24 23:14:13 INFO WRMFRecommender: iter 17 Evaluator value:AUC top 10 is -1.0	0.7925882674707735	0.7940503156056837
+17/03/24 23:14:49 INFO WRMFRecommender: iter 18 Evaluator value:AUC top 10 is -1.0	0.7910643066028109	0.7971061088644344
+17/03/24 23:15:26 INFO WRMFRecommender: iter 19 Evaluator value:AUC top 10 is -1.0	0.7918297309583808	0.7948116559745471
+17/03/24 23:16:01 INFO WRMFRecommender: iter 20 Evaluator value:AUC top 10 is -1.0	0.792579000742579	0.7925274438879725
+17/03/24 23:16:48 INFO WRMFRecommender: iter 21 Evaluator value:AUC top 10 is -1.0	0.7918314723989964	0.7924910211783672
+17/03/24 23:17:20 INFO WRMFRecommender: iter 22 Evaluator value:AUC top 10 is -1.0	0.7941183415537075	0.7932554527036476
+17/03/24 23:17:53 INFO WRMFRecommender: iter 23 Evaluator value:AUC top 10 is -1.0	0.7941170891691801	0.791002827611811
+17/03/24 23:18:29 INFO WRMFRecommender: iter 24 Evaluator value:AUC top 10 is -1.0	0.7933499614233934	0.7894774881591685
+17/03/24 23:19:02 INFO WRMFRecommender: iter 25 Evaluator value:AUC top 10 is -1.0	0.7918496223436217	0.791758605547668
+17/03/24 23:19:42 INFO WRMFRecommender: iter 26 Evaluator value:AUC top 10 is -1.0	0.7888098006194603	0.7940519100177377
+17/03/24 23:20:18 INFO WRMFRecommender: iter 27 Evaluator value:AUC top 10 is -1.0	0.7902998914912785	0.7940644251508818
+17/03/24 23:20:53 INFO WRMFRecommender: iter 28 Evaluator value:AUC top 10 is -1.0	0.789560688150346	0.793313601192958
+17/03/24 23:21:33 INFO WRMFRecommender: iter 29 Evaluator value:AUC top 10 is -1.0	0.7880330781537195	0.7940795520191891
+17/03/24 23:22:12 INFO WRMFRecommender: iter 30 Evaluator value:AUC top 10 is -1.0	0.7887834040200395	0.7955912213208582
+17/03/24 23:22:49 INFO WRMFRecommender: iter 31 Evaluator value:AUC top 10 is -1.0	0.7887748926770095	0.7955891748379282
+17/03/24 23:23:25 INFO WRMFRecommender: iter 32 Evaluator value:AUC top 10 is -1.0	0.7918309979782917	0.7955899561776391
+17/03/24 23:24:06 INFO WRMFRecommender: iter 33 Evaluator value:AUC top 10 is -1.0	0.7933353273651365	0.7948376565394912
+17/03/24 23:24:48 INFO WRMFRecommender: iter 34 Evaluator value:AUC top 10 is -1.0	0.7933344451342876	0.7933111859213867
+17/03/24 23:25:25 INFO WRMFRecommender: iter 35 Evaluator value:AUC top 10 is -1.0	0.7925728821074948	0.7940756422686726
+17/03/24 23:26:05 INFO WRMFRecommender: iter 36 Evaluator value:AUC top 10 is -1.0	0.7933347512010347	0.7956006150310625
+17/03/24 23:26:41 INFO WRMFRecommender: iter 37 Evaluator value:AUC top 10 is -1.0	0.7880082115992048	0.7956015742801906
+17/03/24 23:27:17 INFO WRMFRecommender: iter 38 Evaluator value:AUC top 10 is -1.0	0.7895215800692286	0.7925521343240345
+17/03/24 23:27:53 INFO WRMFRecommender: iter 39 Evaluator value:AUC top 10 is -1.0	0.7910477213351241	0.7948377765921987
+17/03/24 23:28:33 INFO WRMFRecommender: iter 40 Evaluator value:AUC top 10 is -1.0	0.7895510184882217	0.7963636640614489
+17/03/24 23:29:11 INFO WRMFRecommender: iter 41 Evaluator value:AUC top 10 is -1.0	0.7887900422148643	0.7955977645667252
+17/03/24 23:29:48 INFO WRMFRecommender: iter 42 Evaluator value:AUC top 10 is -1.0	0.7887716758292512	0.7971241933867484
+17/03/24 23:30:24 INFO WRMFRecommender: iter 43 Evaluator value:AUC top 10 is -1.0	0.790300101913194	0.7963612961775943
+17/03/24 23:31:02 INFO WRMFRecommender: iter 44 Evaluator value:AUC top 10 is -1.0	0.7910648395737321	0.7978875233070513
+17/03/24 23:31:39 INFO WRMFRecommender: iter 45 Evaluator value:AUC top 10 is -1.0	0.7902983118196162	0.7971224695436211
+17/03/24 23:32:18 INFO WRMFRecommender: iter 46 Evaluator value:AUC top 10 is -1.0	0.789537285085635	0.797896778618891
+17/03/24 23:32:57 INFO WRMFRecommender: iter 47 Evaluator value:AUC top 10 is -1.0	0.7910956363432071	0.7956107082848936
+17/03/24 23:33:40 INFO WRMFRecommender: iter 48 Evaluator value:AUC top 10 is -1.0	0.7910956555454107	0.7956118445429469

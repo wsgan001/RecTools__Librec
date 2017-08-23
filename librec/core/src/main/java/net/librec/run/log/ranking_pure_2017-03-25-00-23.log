@@ -1,0 +1,81 @@
+17/03/25 00:23:09 INFO test_all_ranking_pure: ********************************************************************************
+17/03/25 00:23:09 INFO test_all_ranking_pure: Begin
+
+17/03/25 00:23:09 INFO test_all_ranking_pure: 
+rec.eval.classes=auc
+rec.iterator.maximum=100
+rec.neighbors.knn.number=80
+rec.recommender.similarities=item
+rec.slim.regularization.l2=5
+rec.slim.regularization.l1=1
+rec.similarity.class=cos
+rec.recommender.ranking.topn=10
+rec.recommender.class=slim
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.similarity.shrinkage=10
+rec.eval.enable=true
+rec.recommender.earlystop=true
+
+17/03/25 00:23:09 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/25 00:23:09 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/25 00:23:09 INFO TextDataConvertor: All dataset files size 6153533
+17/03/25 00:23:09 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/25 00:23:11 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/25 00:23:12 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/25 00:23:12 INFO TextDataModel: Data size of training is 80003
+17/03/25 00:23:12 INFO TextDataModel: Data size of testing is 10001
+17/03/25 00:24:04 INFO SLIMRecommender: Job Setup completed.
+17/03/25 00:29:43 INFO SLIMRecommender: iter 1 Evaluator value:AUC top 10 is -1.0	0.5261690483037361	0.532257281752763
+17/03/25 00:35:59 INFO SLIMRecommender: iter 2 Evaluator value:AUC top 10 is -1.0	0.5059661347149605	0.5090075236581094
+17/03/25 00:42:03 INFO SLIMRecommender: iter 3 Evaluator value:AUC top 10 is -1.0	0.6076500676765132	0.6244756237528234
+17/03/25 00:48:07 INFO SLIMRecommender: iter 4 Evaluator value:AUC top 10 is -1.0	0.645092737588618	0.6642645165738941
+17/03/25 00:53:38 INFO SLIMRecommender: iter 5 Evaluator value:AUC top 10 is -1.0	0.556716629827639	0.5447803776087959
+17/03/25 00:59:10 INFO SLIMRecommender: iter 6 Evaluator value:AUC top 10 is -1.0	0.556716629827639	0.5447803776087959
+17/03/25 00:59:10 INFO SLIMRecommender: Job Train completed.
+17/03/25 00:59:33 INFO SLIMRecommender: Job End.
+17/03/25 00:59:33 INFO RecommenderJob: Evaluator info:AUCEvaluator is 0.5447803776087959
+17/03/25 00:59:33 INFO RecommenderJob: Result path is E:/Users/v-fuz/tools/recommender_system/librec_sourcecode/librec/core/src/main/java/net/librec/run/result/movielens/ml-100k-split-slim-output/slim
+17/03/25 00:59:33 INFO test_all_ranking_pure: End
+
+
+17/03/25 00:59:33 INFO test_all_ranking_pure: ********************************************************************************
+17/03/25 00:59:33 INFO test_all_ranking_pure: Begin
+
+17/03/25 00:59:33 INFO test_all_ranking_pure: 
+rec.eval.classes=auc
+rec.iterator.maximum=100
+rec.neighbors.knn.number=50
+rec.recommender.similarities=item
+rec.slim.regularization.l2=5
+rec.slim.regularization.l1=1
+rec.similarity.class=cos
+rec.recommender.ranking.topn=10
+rec.recommender.class=slim
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.similarity.shrinkage=10
+rec.eval.enable=true
+rec.recommender.earlystop=true
+
+17/03/25 00:59:33 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/25 00:59:33 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/25 00:59:33 INFO TextDataConvertor: All dataset files size 6153533
+17/03/25 00:59:33 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/25 00:59:35 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/25 00:59:35 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/25 00:59:35 INFO TextDataModel: Data size of training is 80003
+17/03/25 00:59:35 INFO TextDataModel: Data size of testing is 10001
+17/03/25 01:00:23 INFO SLIMRecommender: Job Setup completed.
+17/03/25 01:04:14 INFO SLIMRecommender: iter 1 Evaluator value:AUC top 10 is -1.0	0.5097572661293505	0.5180322492050984
+17/03/25 01:08:06 INFO SLIMRecommender: iter 2 Evaluator value:AUC top 10 is -1.0	0.5171531191002092	0.5224428339573225
+17/03/25 01:11:59 INFO SLIMRecommender: iter 3 Evaluator value:AUC top 10 is -1.0	0.6563535762929656	0.6538681709814339
+17/03/25 01:15:51 INFO SLIMRecommender: iter 4 Evaluator value:AUC top 10 is -1.0	0.556716629827639	0.5447803776087959
+17/03/25 01:19:48 INFO SLIMRecommender: iter 5 Evaluator value:AUC top 10 is -1.0	0.556716629827639	0.5447803776087959
+17/03/25 01:19:48 INFO SLIMRecommender: Job Train completed.
+17/03/25 01:20:07 INFO SLIMRecommender: Job End.
+17/03/25 01:20:07 INFO RecommenderJob: Evaluator info:AUCEvaluator is 0.5447803776087959
+17/03/25 01:20:07 INFO RecommenderJob: Result path is E:/Users/v-fuz/tools/recommender_system/librec_sourcecode/librec/core/src/main/java/net/librec/run/result/movielens/ml-100k-split-slim-output/slim
+17/03/25 01:20:08 INFO test_all_ranking_pure: End
+
+

@@ -1,0 +1,125 @@
+17/03/26 15:50:39 INFO test_all_ranking_pure: ********************************************************************************
+17/03/26 15:50:39 INFO test_all_ranking_pure: Begin
+
+17/03/26 15:50:39 INFO test_all_ranking_pure: 
+rec.iterator.learnrate=0.01
+rec.eval.classes=auc
+rec.learnrate.decay=1.0
+rec.iterator.maximum=100
+rec.iterator.learnrate.maximum=0.01
+rec.item.regularization=0.1
+rec.recommender.ranking.topn=10
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.recommender.class=listwisemf
+rec.learnrate.bolddriver=false
+rec.factor.number=10
+rec.eval.enable=true
+rec.user.regularization=0.1
+
+17/03/26 15:50:39 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/26 15:50:39 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/26 15:50:39 INFO TextDataConvertor: All dataset files size 6153533
+17/03/26 15:50:39 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/26 15:50:41 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/26 15:50:41 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/26 15:50:41 INFO TextDataModel: Data size of training is 80003
+17/03/26 15:50:41 INFO TextDataModel: Data size of testing is 10001
+17/03/26 15:50:42 INFO ListRankMFRecommender: Job Setup completed.
+17/03/26 15:50:42 INFO ListRankMFRecommender:  iter 1: loss = 4423.37879739406, delta_loss = 6.48131800536612
+17/03/26 15:50:42 INFO ListRankMFRecommender:  iter 2: loss = 4410.48082103974, delta_loss = 12.897976354320235
+17/03/26 15:50:43 INFO ListRankMFRecommender:  iter 3: loss = 4384.94184066784, delta_loss = 25.538980371899925
+17/03/26 15:50:43 INFO ListRankMFRecommender:  iter 4: loss = 4334.87855139041, delta_loss = 50.06328927742925
+17/03/26 15:50:43 INFO ListRankMFRecommender:  iter 5: loss = 4238.706702733005, delta_loss = 96.17184865740546
+17/03/26 15:50:43 INFO ListRankMFRecommender:  iter 6: loss = 4061.3784930108873, delta_loss = 177.32820972211766
+17/03/26 15:50:43 INFO ListRankMFRecommender:  iter 7: loss = 3760.7947752404043, delta_loss = 300.58371777048296
+17/03/26 15:50:43 INFO ListRankMFRecommender:  iter 8: loss = 3334.451155581157, delta_loss = 426.34361965924745
+17/03/26 15:50:44 INFO ListRankMFRecommender:  iter 9: loss = 2931.55130958756, delta_loss = 402.89984599359695
+17/03/26 15:50:44 INFO ListRankMFRecommender:  iter 10: loss = 2806.0613588652823, delta_loss = 125.48995072227763
+17/03/26 15:50:44 INFO ListRankMFRecommender:  iter 11: loss = 2805.986220891135, delta_loss = 0.07513797414731016
+17/03/26 15:50:44 INFO ListRankMFRecommender:  iter 12: loss = 2805.9861776024063, delta_loss = 4.328872864789446E-5
+17/03/26 15:50:44 INFO ListRankMFRecommender:  iter 13: loss = 2805.986177579581, delta_loss = 2.2825133783044294E-8
+17/03/26 15:50:44 INFO ListRankMFRecommender:  iter 14: loss = 2805.986177579581, delta_loss = 0.0
+17/03/26 15:50:45 INFO ListRankMFRecommender:  iter 15: loss = 2805.9861775795807, delta_loss = 4.547473508864641E-13
+17/03/26 15:50:45 INFO ListRankMFRecommender:  iter 16: loss = 2805.9861775795807, delta_loss = 0.0
+17/03/26 15:50:45 INFO ListRankMFRecommender:  iter 17: loss = 2805.9861775795807, delta_loss = 0.0
+17/03/26 15:50:45 INFO ListRankMFRecommender:  iter 18: loss = 2805.9861775795807, delta_loss = 0.0
+17/03/26 15:50:45 INFO ListRankMFRecommender:  iter 19: loss = 2805.9861775795725, delta_loss = 8.185452315956354E-12
+17/03/26 15:50:46 INFO ListRankMFRecommender:  iter 20: loss = 2805.9861775795684, delta_loss = 4.092726157978177E-12
+17/03/26 15:50:46 INFO ListRankMFRecommender:  iter 21: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:47 INFO ListRankMFRecommender:  iter 22: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:47 INFO ListRankMFRecommender:  iter 23: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:47 INFO ListRankMFRecommender:  iter 24: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:48 INFO ListRankMFRecommender:  iter 25: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:48 INFO ListRankMFRecommender:  iter 26: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:48 INFO ListRankMFRecommender:  iter 27: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:48 INFO ListRankMFRecommender:  iter 28: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:48 INFO ListRankMFRecommender:  iter 29: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:49 INFO ListRankMFRecommender:  iter 30: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:49 INFO ListRankMFRecommender:  iter 31: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:50 INFO ListRankMFRecommender:  iter 32: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:50 INFO ListRankMFRecommender:  iter 33: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:51 INFO ListRankMFRecommender:  iter 34: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:51 INFO ListRankMFRecommender:  iter 35: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:51 INFO ListRankMFRecommender:  iter 36: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:52 INFO ListRankMFRecommender:  iter 37: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:52 INFO ListRankMFRecommender:  iter 38: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:53 INFO ListRankMFRecommender:  iter 39: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:53 INFO ListRankMFRecommender:  iter 40: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:53 INFO ListRankMFRecommender:  iter 41: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:53 INFO ListRankMFRecommender:  iter 42: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:53 INFO ListRankMFRecommender:  iter 43: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:54 INFO ListRankMFRecommender:  iter 44: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:54 INFO ListRankMFRecommender:  iter 45: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:54 INFO ListRankMFRecommender:  iter 46: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:54 INFO ListRankMFRecommender:  iter 47: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:54 INFO ListRankMFRecommender:  iter 48: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:54 INFO ListRankMFRecommender:  iter 49: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:54 INFO ListRankMFRecommender:  iter 50: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:54 INFO ListRankMFRecommender:  iter 51: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:55 INFO ListRankMFRecommender:  iter 52: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:55 INFO ListRankMFRecommender:  iter 53: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:55 INFO ListRankMFRecommender:  iter 54: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:55 INFO ListRankMFRecommender:  iter 55: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:55 INFO ListRankMFRecommender:  iter 56: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:55 INFO ListRankMFRecommender:  iter 57: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:55 INFO ListRankMFRecommender:  iter 58: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:56 INFO ListRankMFRecommender:  iter 59: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:56 INFO ListRankMFRecommender:  iter 60: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:56 INFO ListRankMFRecommender:  iter 61: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:56 INFO ListRankMFRecommender:  iter 62: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:57 INFO ListRankMFRecommender:  iter 63: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:57 INFO ListRankMFRecommender:  iter 64: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:57 INFO ListRankMFRecommender:  iter 65: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:57 INFO ListRankMFRecommender:  iter 66: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:58 INFO ListRankMFRecommender:  iter 67: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:58 INFO ListRankMFRecommender:  iter 68: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:58 INFO ListRankMFRecommender:  iter 69: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:58 INFO ListRankMFRecommender:  iter 70: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:59 INFO ListRankMFRecommender:  iter 71: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:59 INFO ListRankMFRecommender:  iter 72: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:59 INFO ListRankMFRecommender:  iter 73: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:59 INFO ListRankMFRecommender:  iter 74: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:50:59 INFO ListRankMFRecommender:  iter 75: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:51:00 INFO ListRankMFRecommender:  iter 76: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:51:00 INFO ListRankMFRecommender:  iter 77: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:51:00 INFO ListRankMFRecommender:  iter 78: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:51:00 INFO ListRankMFRecommender:  iter 79: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:51:01 INFO ListRankMFRecommender:  iter 80: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:51:01 INFO ListRankMFRecommender:  iter 81: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:51:01 INFO ListRankMFRecommender:  iter 82: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:51:02 INFO ListRankMFRecommender:  iter 83: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:51:02 INFO ListRankMFRecommender:  iter 84: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:51:02 INFO ListRankMFRecommender:  iter 85: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:51:02 INFO ListRankMFRecommender:  iter 86: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:51:03 INFO ListRankMFRecommender:  iter 87: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:51:03 INFO ListRankMFRecommender:  iter 88: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:51:03 INFO ListRankMFRecommender:  iter 89: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:51:03 INFO ListRankMFRecommender:  iter 90: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:51:04 INFO ListRankMFRecommender:  iter 91: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:51:04 INFO ListRankMFRecommender:  iter 92: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:51:04 INFO ListRankMFRecommender:  iter 93: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:51:05 INFO ListRankMFRecommender:  iter 94: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:51:05 INFO ListRankMFRecommender:  iter 95: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:51:05 INFO ListRankMFRecommender:  iter 96: loss = 2805.9861775795684, delta_loss = 0.0
+17/03/26 15:51:05 INFO ListRankMFRecommender:  iter 97: loss = 2805.9861775795684, delta_loss = 0.0

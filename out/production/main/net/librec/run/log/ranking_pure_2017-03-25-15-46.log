@@ -1,0 +1,83 @@
+17/03/25 15:46:15 INFO test_all_ranking_pure: ********************************************************************************
+17/03/25 15:46:15 INFO test_all_ranking_pure: Begin
+
+17/03/25 15:46:15 INFO test_all_ranking_pure: 
+rec.iterator.learnrate=0.01
+rec.eval.classes=auc
+rec.learnrate.decay=1.0
+rec.iterator.maximum=100
+rec.iterator.learnrate.maximum=0.01
+rec.item.regularization=0.1
+rec.recommender.ranking.topn=10
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.recommender.class=listrankmf
+rec.learnrate.bolddriver=false
+rec.factor.number=10
+rec.eval.enable=true
+rec.user.regularization=0.1
+
+17/03/25 15:46:15 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/25 15:46:15 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/25 15:46:15 INFO TextDataConvertor: All dataset files size 6153533
+17/03/25 15:46:15 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/25 15:46:18 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/25 15:46:18 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/25 15:46:18 INFO TextDataModel: Data size of training is 80003
+17/03/25 15:46:18 INFO TextDataModel: Data size of testing is 10001
+17/03/25 15:46:18 ERROR test_all_ranking_pure: 
+17/03/25 15:46:18 INFO test_all_ranking_pure: ********************************************************************************
+17/03/25 15:46:18 INFO test_all_ranking_pure: Begin
+
+17/03/25 15:46:18 INFO test_all_ranking_pure: 
+rec.iterator.learnrate=0.01
+rec.eval.classes=auc
+rec.learnrate.decay=1.0
+rec.iterator.maximum=100
+rec.iterator.learnrate.maximum=0.01
+rec.item.regularization=0.1
+rec.recommender.ranking.topn=10
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.recommender.class=listrankmf
+rec.learnrate.bolddriver=true
+rec.factor.number=10
+rec.eval.enable=true
+rec.user.regularization=0.1
+
+17/03/25 15:46:18 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/25 15:46:18 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/25 15:46:18 INFO TextDataConvertor: All dataset files size 6153533
+17/03/25 15:46:18 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/25 15:46:20 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/25 15:46:20 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/25 15:46:20 INFO TextDataModel: Data size of training is 80003
+17/03/25 15:46:20 INFO TextDataModel: Data size of testing is 10001
+17/03/25 15:46:20 ERROR test_all_ranking_pure: 
+17/03/25 15:46:51 INFO test_all_ranking_pure: ********************************************************************************
+17/03/25 15:46:51 INFO test_all_ranking_pure: Begin
+
+17/03/25 15:46:51 INFO test_all_ranking_pure: 
+rec.iterator.learnrate=0.01
+rec.eval.classes=auc
+rec.learnrate.decay=1.0
+rec.iterator.maximum=100
+rec.iterator.learnrate.maximum=0.01
+rec.item.regularization=0.1
+rec.recommender.ranking.topn=10
+rec.random.seed=1
+rec.recommender.isranking=true
+rec.recommender.class=listrankmf
+rec.learnrate.bolddriver=false
+rec.factor.number=10
+rec.eval.enable=true
+rec.user.regularization=0.1
+
+17/03/25 15:46:51 INFO TextDataConvertor: Dataset: ...librec/data/movielens/ml-100k-split
+17/03/25 15:46:51 INFO TextDataConvertor: All dataset files [E:\Users\v-fuz\tools\recommender_system\librec_sourcecode\librec\data\movielens\ml-100k-split\uniform_negsample.txt]
+17/03/25 15:46:51 INFO TextDataConvertor: All dataset files size 6153533
+17/03/25 15:46:51 INFO TextDataConvertor: Now loading dataset file uniform_negsample
+17/03/25 15:46:54 INFO TextDataModel: Transform data to Convertor successfully!
+17/03/25 15:46:54 INFO TextDataModel: Split data to train Set and test Set successfully!
+17/03/25 15:46:54 INFO TextDataModel: Data size of training is 80003
+17/03/25 15:46:54 INFO TextDataModel: Data size of testing is 10001
