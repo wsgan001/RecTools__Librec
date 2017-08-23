@@ -4,7 +4,11 @@ package net.librec.run;
  * Created by fuzzhang on 8/23/2017.
  */
 public class Params {
-    public static final String rootDir = "E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\";
+
+    //mlsdata
+    //public static final String rootDir = "E:\\Users\\v-fuz\\tools\\recommender_system\\librec_sourcecode\\";
+    //mobius
+    public static final String rootDir = "D:\\users\\v-fuz\\Codes\\RecTools__Librec\\";
 
 
     public static final String configOutputDir = rootDir +
